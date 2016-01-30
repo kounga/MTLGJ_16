@@ -4,10 +4,14 @@ using System.Collections;
 public class Timer : MonoBehaviour {
 
 	private float timer = 0.0f;
-	public float timeLeft = 120.0f; //start at 120
+	public float timeLeft = 180.0f; //start at 180s
 
-	public float minutes;
-	public float seconds;
+	private float minutes;
+	private float seconds;
+
+	public Font guiFont;
+	private GUIStyle guiStyle = new GUIStyle();
+
 
 	void Start(){
 		timer = timeLeft;
@@ -31,10 +35,13 @@ public class Timer : MonoBehaviour {
 
 	//Display the time on the GUI
 	void OnGUI () {
+		GUI.skin.font = guiFont;
+		guiStyle.fontSize = 20;
+		//guiStyle.normal.textColor = Color.red;
 		minutes = Mathf.FloorToInt(timer / 60.0f);
 		seconds = Mathf.FloorToInt(timer % 60.0f);
-		string text = string.Format("{0:00}:{1:00}", minutes.ToString("0"), seconds.ToString("0"));
-		GUI.Label(new Rect(10, 110, 100, 20), "Time: " + text);
+		string text = string.Format("{0:00}:{1:00}", minutes.ToString("0"), seconds.ToString("00"));
+		GUI.Label(new Rect(10, 5, 100, 20), "Time: " + text, guiStyle);
 
 	}
 
