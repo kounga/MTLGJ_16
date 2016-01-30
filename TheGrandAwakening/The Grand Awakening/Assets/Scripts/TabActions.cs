@@ -45,9 +45,9 @@ public class TabActions : MonoBehaviour {
 
 		}
 		if (Input.GetButton("Use")) {
-			Debug.Log ("Use "+textTab[selectedTab].GetComponent<TextMesh>().text)
+			Debug.Log ("Use " + textTab [selectedTab].GetComponent<TextMesh> ().text);
 		}
-		if (Input.GetButton("Cancel"))
-			Debug.Log ("Annule")
+		if (Input.GetButton ("Cancel"))
+			Debug.Log ("Annule");
 	}
 }
