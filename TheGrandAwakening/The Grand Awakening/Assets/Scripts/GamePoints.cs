@@ -5,13 +5,12 @@ public class GamePoints : MonoBehaviour {
 
 	int totalPoints = 0;
 	public float timeMultiplier = 2f;
-	Timer timer;
+	public Timer timer;
 
 	void addPoints(int points) {
 		totalPoints += points;
 	}
-
-	void getPoints() {
+	public float getPoints() {
 		return timer.getSeconds () * timeMultiplier + totalPoints;
 	}
 }

@@ -38,7 +38,7 @@ public class Timer : MonoBehaviour {
 
 	}
 
-	public void getSeconds(){
+	public int getSeconds(){
 		return (int)timeLeft;
 	}
 }
