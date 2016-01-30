@@ -11,7 +11,7 @@ public class TaskManager : MonoBehaviour {
 	[SerializeField]
 	private PlayerMax player;
 	[SerializeField]
-	private Camera mainCamera;
+	private GameObject mainCameraCanvas;
 	[SerializeField]
 	private GameObject spritePictogram;
 	[SerializeField]
@@ -53,8 +53,9 @@ public class TaskManager : MonoBehaviour {
 		currentTask = tasksArray[currentTaskId];
 		currentPictogram = (Instantiate(spritePictogram)as GameObject);
 		currentPictogram.GetComponent<SpriteRenderer>().sprite = spriteArray[currentTaskId];
-		currentPictogram.transform.parent = mainCamera.transform;
-		currentPictogram.transform.position = new Vector3(-2.01f,1.428f,2.068f);
+		currentPictogram.transform.position = new Vector3(mainCameraCanvas.transform.position.x,mainCameraCanvas.transform.position.y+0.1f,mainCameraCanvas.transform.position.z+0.8f);
+		currentPictogram.transform.parent = mainCameraCanvas.transform;
+
 	}
 	void reshuffle(string[] texts, Sprite[] spriteArray)
     {
