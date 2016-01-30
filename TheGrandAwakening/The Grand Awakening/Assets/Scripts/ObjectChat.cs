@@ -1,15 +1,13 @@
 ﻿using UnityEngine;
-using System;
+using System.Collections;
 
 public class ObjectChat : MonoBehaviour {
-	
-	public GameObject[] buttonAction;
-	public string[] actions = {"", "", ""};
+	[SerializeField]
+	public GameObject buttonAction;
+	public string[] actions;
 	// Use this for initialization
 	void Start () {
-		foreach (GameObject gameObject in buttonAction) {
-			gameObject.SetActive (false);
-		}
+		buttonAction.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -17,17 +15,13 @@ public class ObjectChat : MonoBehaviour {
 		
 	}
 	void OnTriggerEnter (Collider other){
-		foreach (GameObject button in buttonAction) {
-			if (other.gameObject.tag == "Player" && actions[Array.IndexOf(buttonAction, button)] != ""){
-				button.SetActive (true);
-			}
+		if (other.gameObject.tag == "Player"){
+			buttonAction.SetActive(true);
 		}
 	}
 	void OnTriggerExit(Collider other){
-		foreach (GameObject button in buttonAction ) {
-			if (other.gameObject.tag == "Player") {
-				button.SetActive (false);
-			}
+		if (other.gameObject.tag == "Player"){
+			buttonAction.SetActive(false);
 		}
 	}
 }
