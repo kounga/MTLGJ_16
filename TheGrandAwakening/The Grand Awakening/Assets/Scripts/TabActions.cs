@@ -45,7 +45,7 @@ public class TabActions : MonoBehaviour {
 
 
 		}
-		if (Input.GetButton("Use")) {
+		if (Input.GetButton("Use") && !player.spaceIsDown) {
 			player.currentAction = textTab[selectedTab].GetComponent<TextMesh>().text;
 			Object.Destroy(this.gameObject);
 		}
