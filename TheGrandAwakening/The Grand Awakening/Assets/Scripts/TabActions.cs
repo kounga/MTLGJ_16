@@ -12,10 +12,9 @@ public class TabActions : MonoBehaviour {
 		if(actions.Length != 0)
 		{
 			for (int i=0; i<actions.Length; i++) {
-				Vector3 posText= new Vector3(transform.position.x,transform.position.y*i,transform.position.z);
+				Vector3 posText= new Vector3(transform.position.x+1,transform.position.y+1+(0.08f*i),transform.position.z);
 				Instantiate(newText,posText,transform.rotation);
-				newText.transform.parent = this.transform;
-				TextMesh text = newText.GetComponent<TextMesh>();
+				TextMesh text = newText.transform.GetChild(0).GetComponent<TextMesh>();
 				text.text = actions[i];
 			}
 			textTab = GameObject.FindGameObjectsWithTag("TextTabs");
@@ -39,15 +38,14 @@ public class TabActions : MonoBehaviour {
 			for (int i=0; i<textTab.Length; i++){
 				textTab[i].GetComponent<TextMesh>().color = Color.white;
 			}
-			Debug.Log (textTab[selectedTab].GetComponent<TextMesh>().text);
 			textTab[selectedTab].GetComponent<TextMesh>().color = Color.yellow;
 
 
 		}
 		if (Input.GetButton("Use")) {
-			Debug.Log ("Use " + textTab [selectedTab].GetComponent<TextMesh> ().text);
+			Debug.Log ("Use "+textTab[selectedTab].GetComponent<TextMesh>().text);
 		}
-		if (Input.GetButton ("Cancel"))
+		if (Input.GetButton("Cancel"))
 			Debug.Log ("Annule");
 	}
 }
