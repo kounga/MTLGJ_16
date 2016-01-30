@@ -5,6 +5,7 @@ public class Timer : MonoBehaviour {
 
 	private float timer = 0.0f;
 	public float timeLeft = 180.0f; //start at 180s
+	bool timeUPs = false;
 
 	private float minutes;
 	private float seconds;
@@ -23,7 +24,9 @@ public class Timer : MonoBehaviour {
 		timer -= Time.deltaTime;
 
 		if (timer <= 0) {
+			timeUPs = true;
 			//TODO
+
 			//calculate score
 			//end game
 			//load scene "game over" and show score
