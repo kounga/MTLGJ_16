@@ -4,6 +4,7 @@ using System.Collections;
 public class ObjectChat : MonoBehaviour {
 	[SerializeField]
 	public GameObject buttonAction;
+	public string[] actions;
 	// Use this for initialization
 	void Start () {
 		buttonAction.SetActive(false);
