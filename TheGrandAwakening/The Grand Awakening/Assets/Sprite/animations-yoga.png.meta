@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: b4a80b96815b85943a69d6b2617a92d4
+timeCreated: 1454189913
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: animations-yoga_0
+    21300002: animations-yoga_1
+    21300004: animations-yoga_2
+    21300006: animations-yoga_3
+    21300008: animations-yoga_4
+    21300010: animations-yoga_5
+    21300012: animations-yoga_6
+    21300014: animations-yoga_7
+    21300016: animations-yoga_8
+    21300018: animations-yoga_9
+    21300020: animations-yoga_10
+    21300022: animations-yoga_11
+    21300024: animations-yoga_12
+    21300026: animations-yoga_13
+    21300028: animations-yoga_14
+    21300030: animations-yoga_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: animations-yoga_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 77.5}
+        - {x: -19, y: 77.5}
+        - {x: -30, y: 46.5}
+        - {x: -30, y: -77.5}
+        - {x: 33, y: -77.5}
+        - {x: 33, y: 34.5}
+        - {x: 31, y: 76.5}
+    - name: animations-yoga_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 155
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -77.5}
+        - {x: 33, y: -77.5}
+        - {x: 33, y: 77.5}
+        - {x: -26, y: 77.5}
+        - {x: -26, y: -77.5}
+        - {x: 3, y: -77.5}
+        - {x: 4, y: -67.5}
+        - {x: 6, y: -69.5}
+        - {x: 4, y: -72.5}
+    - name: animations-yoga_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 155
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -60.5}
+        - {x: 13, y: -62.5}
+        - {x: 7, y: -59.5}
+        - {x: 16, y: -60.5}
+        - {x: 23, y: -56.5}
+        - {x: 32, y: -15.5}
+        - {x: 32, y: 56.5}
+        - {x: 24, y: 77.5}
+        - {x: -27, y: 77.5}
+        - {x: -27, y: -77.5}
+        - {x: 32, y: -77.5}
+        - {x: 32, y: -67.5}
+        - {x: 25, y: -60.5}
+    - name: animations-yoga_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 155
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -60.5}
+        - {x: 12, y: -62.5}
+        - {x: 6, y: -59.5}
+        - {x: 15, y: -60.5}
+        - {x: 21, y: -55.5}
+        - {x: 31, y: -33.5}
+        - {x: 31, y: 76.5}
+        - {x: 30, y: 77.5}
+        - {x: -25, y: 77.5}
+        - {x: -28, y: 76.5}
+        - {x: -28, y: -77.5}
+        - {x: 31, y: -77.5}
+        - {x: 31, y: -67.5}
+        - {x: 24, y: -60.5}
+    - name: animations-yoga_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 155
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -60.5}
+        - {x: 11, y: -62.5}
+        - {x: 5, y: -59.5}
+        - {x: 14, y: -60.5}
+        - {x: 20, y: -55.5}
+        - {x: 30, y: -20.5}
+        - {x: 30, y: 47.5}
+        - {x: 24, y: 75.5}
+        - {x: 19, y: 77.5}
+        - {x: -25, y: 77.5}
+        - {x: -29, y: 62.5}
+        - {x: -29, y: -77.5}
+        - {x: 30, y: -77.5}
+        - {x: 30, y: -67.5}
+        - {x: 23, y: -60.5}
+    - name: animations-yoga_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 155
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -60.5}
+        - {x: 10, y: -62.5}
+        - {x: 4, y: -59.5}
+        - {x: 13, y: -60.5}
+        - {x: 20, y: -56.5}
+        - {x: 29, y: -14.5}
+        - {x: 29, y: 57.5}
+        - {x: 19, y: 77.5}
+        - {x: -23, y: 77.5}
+        - {x: -30, y: 61.5}
+        - {x: -30, y: -77.5}
+        - {x: 29, y: -77.5}
+        - {x: 29, y: -67.5}
+        - {x: 22, y: -60.5}
+    - name: animations-yoga_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 155
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -60.5}
+        - {x: 9, y: -62.5}
+        - {x: 3, y: -59.5}
+        - {x: 12, y: -60.5}
+        - {x: 17, y: -55.5}
+        - {x: 23, y: -36.5}
+        - {x: 28, y: -12.5}
+        - {x: 28, y: 52.5}
+        - {x: 19, y: 77.5}
+        - {x: -28, y: 77.5}
+        - {x: -31, y: 76.5}
+        - {x: -31, y: -77.5}
+        - {x: 28, y: -77.5}
+        - {x: 28, y: -67.5}
+        - {x: 21, y: -60.5}
+    - name: animations-yoga_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 155
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -77.5}
+        - {x: 27, y: -77.5}
+        - {x: 27, y: 66.5}
+        - {x: 24, y: 77.5}
+        - {x: -19, y: 77.5}
+        - {x: -28, y: 68.5}
+        - {x: -32, y: 52.5}
+        - {x: -32, y: -77.5}
+        - {x: -3, y: -77.5}
+        - {x: -2, y: -67.5}
+        - {x: 0, y: -69.5}
+        - {x: -2, y: -72.5}
+    - name: animations-yoga_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 77.5}
+        - {x: -19, y: 77.5}
+        - {x: -30, y: 46.5}
+        - {x: -30, y: -77.5}
+        - {x: 33, y: -77.5}
+        - {x: 33, y: 34.5}
+        - {x: 31, y: 76.5}
+    - name: animations-yoga_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -77.5}
+        - {x: 33, y: -77.5}
+        - {x: 33, y: 77.5}
+        - {x: -26, y: 77.5}
+        - {x: -26, y: -77.5}
+        - {x: 3, y: -77.5}
+        - {x: 4, y: -67.5}
+        - {x: 6, y: -69.5}
+        - {x: 4, y: -72.5}
+    - name: animations-yoga_10
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -60.5}
+        - {x: 13, y: -62.5}
+        - {x: 7, y: -59.5}
+        - {x: 16, y: -60.5}
+        - {x: 23, y: -56.5}
+        - {x: 32, y: -15.5}
+        - {x: 32, y: 56.5}
+        - {x: 24, y: 77.5}
+        - {x: -27, y: 77.5}
+        - {x: -27, y: -77.5}
+        - {x: 32, y: -77.5}
+        - {x: 32, y: -67.5}
+        - {x: 25, y: -60.5}
+    - name: animations-yoga_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -60.5}
+        - {x: 12, y: -62.5}
+        - {x: 6, y: -59.5}
+        - {x: 15, y: -60.5}
+        - {x: 21, y: -55.5}
+        - {x: 31, y: -33.5}
+        - {x: 31, y: 76.5}
+        - {x: 30, y: 77.5}
+        - {x: -25, y: 77.5}
+        - {x: -28, y: 76.5}
+        - {x: -28, y: -77.5}
+        - {x: 31, y: -77.5}
+        - {x: 31, y: -67.5}
+        - {x: 24, y: -60.5}
+    - name: animations-yoga_12
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -60.5}
+        - {x: 11, y: -62.5}
+        - {x: 5, y: -59.5}
+        - {x: 14, y: -60.5}
+        - {x: 20, y: -55.5}
+        - {x: 30, y: -20.5}
+        - {x: 30, y: 47.5}
+        - {x: 24, y: 75.5}
+        - {x: 19, y: 77.5}
+        - {x: -25, y: 77.5}
+        - {x: -29, y: 62.5}
+        - {x: -29, y: -77.5}
+        - {x: 30, y: -77.5}
+        - {x: 30, y: -67.5}
+        - {x: 23, y: -60.5}
+    - name: animations-yoga_13
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -60.5}
+        - {x: 10, y: -62.5}
+        - {x: 4, y: -59.5}
+        - {x: 13, y: -60.5}
+        - {x: 19, y: -55.5}
+        - {x: 29, y: -20.5}
+        - {x: 29, y: 38.5}
+        - {x: 20, y: 73.5}
+        - {x: 16, y: 77.5}
+        - {x: -17, y: 77.5}
+        - {x: -26, y: 68.5}
+        - {x: -30, y: 54.5}
+        - {x: -30, y: -77.5}
+        - {x: 29, y: -77.5}
+        - {x: 29, y: -67.5}
+        - {x: 22, y: -60.5}
+    - name: animations-yoga_14
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -60.5}
+        - {x: 9, y: -62.5}
+        - {x: 3, y: -59.5}
+        - {x: 12, y: -60.5}
+        - {x: 18, y: -55.5}
+        - {x: 28, y: -20.5}
+        - {x: 28, y: 38.5}
+        - {x: 19, y: 73.5}
+        - {x: 15, y: 77.5}
+        - {x: -18, y: 77.5}
+        - {x: -27, y: 68.5}
+        - {x: -31, y: 49.5}
+        - {x: -31, y: -77.5}
+        - {x: 28, y: -77.5}
+        - {x: 28, y: -67.5}
+        - {x: 21, y: -60.5}
+    - name: animations-yoga_15
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: -60.5}
+        - {x: 8, y: -62.5}
+        - {x: 2, y: -59.5}
+        - {x: 11, y: -60.5}
+        - {x: 19, y: -56.5}
+        - {x: 27, y: 2.5}
+        - {x: 27, y: 44.5}
+        - {x: 23, y: 70.5}
+        - {x: 13, y: 74.5}
+        - {x: -26, y: 74.5}
+        - {x: -32, y: 58.5}
+        - {x: -32, y: -9.5}
+        - {x: -22, y: -37.5}
+        - {x: -20, y: -39.5}
+        - {x: -32, y: -64.5}
+        - {x: -32, y: -77.5}
+        - {x: 27, y: -77.5}
+        - {x: 27, y: -67.5}
+        - {x: 20, y: -60.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
