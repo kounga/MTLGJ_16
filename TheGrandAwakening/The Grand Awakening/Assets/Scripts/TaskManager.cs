@@ -12,6 +12,8 @@ public class TaskManager : MonoBehaviour {
 	[SerializeField]
 	private PlayerMax player;
 	[SerializeField]
+	private Camera mainCamera;
+	[SerializeField]
 	private GameObject spritePictogram;
 	// Use this for initialization
 	void Start () {
@@ -47,7 +49,8 @@ public class TaskManager : MonoBehaviour {
 		}
 		currentTask = Tasks[currentTaskId];
 		currentPictogram = (Instantiate(spritePictogram)as GameObject);
-		
+		currentPictogram.transform.parent = mainCamera.transform;
+		currentPictogram.transform.position = new Vector3(-2.01f,1.428f,2.068f);
 	}
 	void reshuffle(string[] texts)
     {
