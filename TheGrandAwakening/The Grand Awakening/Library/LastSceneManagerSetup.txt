@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/KEVIN.unity
-=======
-- path: Assets/Scenes/Joel.unity
->>>>>>> a22b9486cb4fd8f12898e615ab1015cd980660d5
+- path: Assets/Scenes/main-max.unity
   isLoaded: 1
   isActive: 1

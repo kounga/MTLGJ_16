@@ -1,9 +1,24 @@
 fileFormatVersion: 2
 guid: ab7d40e70545b4f499025cc72f11c2ce
-timeCreated: 1454184292
+timeCreated: 1454189387
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: animations_ship_medium_0
+    21300002: animations_ship_medium_1
+    21300004: animations_ship_medium_2
+    21300006: animations_ship_medium_3
+    21300008: animations_ship_medium_4
+    21300010: animations_ship_medium_5
+    21300012: animations_ship_medium_6
+    21300014: animations_ship_medium_7
+    21300016: animations_ship_medium_8
+    21300018: animations_ship_medium_9
+    21300020: animations_ship_medium_10
+    21300022: animations_ship_medium_11
+    21300024: animations_ship_medium_12
+    21300026: animations_ship_medium_13
+    21300028: animations_ship_medium_14
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,26 +45,387 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: animations_ship_medium_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 78}
+        - {x: -25, y: -78}
+        - {x: 33, y: -78}
+        - {x: 33, y: 5}
+        - {x: 26, y: 78}
+    - name: animations_ship_medium_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 154
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 78}
+        - {x: -26, y: -78}
+        - {x: 33, y: -78}
+        - {x: 33, y: 78}
+    - name: animations_ship_medium_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 154
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -28}
+        - {x: 32, y: -4}
+        - {x: 32, y: 40}
+        - {x: 20, y: 40}
+        - {x: 18, y: 38}
+        - {x: 22, y: 43}
+        - {x: 23, y: 74}
+        - {x: 19, y: 78}
+        - {x: -23, y: 78}
+        - {x: -27, y: 77}
+        - {x: -27, y: -77}
+        - {x: -26, y: -78}
+        - {x: 32, y: -78}
+        - {x: 32, y: -63}
+        - {x: 26, y: -59}
+    - name: animations_ship_medium_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 154
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -59}
+        - {x: 31, y: -22}
+        - {x: 31, y: 44}
+        - {x: 29, y: 78}
+        - {x: -24, y: 78}
+        - {x: -28, y: 65}
+        - {x: -28, y: -78}
+        - {x: 30, y: -78}
+        - {x: 31, y: -77}
+        - {x: 31, y: -65}
+    - name: animations_ship_medium_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 154
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -59}
+        - {x: 30, y: -22}
+        - {x: 30, y: 43}
+        - {x: 18, y: 40}
+        - {x: 16, y: 38}
+        - {x: 20, y: 43}
+        - {x: 21, y: 74}
+        - {x: 17, y: 78}
+        - {x: -25, y: 78}
+        - {x: -29, y: 77}
+        - {x: -29, y: -77}
+        - {x: -28, y: -78}
+        - {x: 29, y: -78}
+        - {x: 30, y: -77}
+        - {x: 30, y: -65}
+    - name: animations_ship_medium_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 154
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -59}
+        - {x: 29, y: -29}
+        - {x: 29, y: 56}
+        - {x: 27, y: 78}
+        - {x: -30, y: 78}
+        - {x: -30, y: -78}
+        - {x: 28, y: -78}
+        - {x: 29, y: -77}
+        - {x: 29, y: -65}
+      - - {x: 30, y: -77}
+        - {x: 31, y: -78}
+        - {x: 33, y: -78}
+        - {x: 33, y: -65}
+        - {x: 30, y: -66}
+      - - {x: 30, y: 3}
+        - {x: 32, y: 1}
+        - {x: 33, y: 1}
+        - {x: 33, y: 25}
+        - {x: 30, y: 24}
+    - name: animations_ship_medium_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 154
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -59}
+        - {x: 23, y: -29}
+        - {x: 23, y: 56}
+        - {x: 21, y: 78}
+        - {x: -33, y: 78}
+        - {x: -33, y: -78}
+        - {x: 22, y: -78}
+        - {x: 23, y: -77}
+        - {x: 23, y: -65}
+    - name: animations_ship_medium_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 77.5}
+        - {x: -13, y: 77.5}
+        - {x: -20, y: 60.5}
+        - {x: -20, y: -77.5}
+        - {x: 33, y: -77.5}
+        - {x: 33, y: 64.5}
+        - {x: 30, y: 73.5}
+    - name: animations_ship_medium_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: -77.5}
+        - {x: -27, y: -77.5}
+        - {x: -27, y: -67.5}
+        - {x: -29, y: -65.5}
+        - {x: -33, y: -65.5}
+      - - {x: 26, y: 77.5}
+        - {x: -21, y: 77.5}
+        - {x: -21, y: -77.5}
+        - {x: 33, y: -77.5}
+        - {x: 33, y: 68.5}
+        - {x: 31, y: 74.5}
+    - name: animations_ship_medium_9
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: -77.5}
+        - {x: -29, y: -77.5}
+        - {x: -29, y: -67.5}
+        - {x: -31, y: -65.5}
+        - {x: -33, y: -65.5}
+      - - {x: 22, y: 37.5}
+        - {x: 26, y: 42.5}
+        - {x: 27, y: 73.5}
+        - {x: 23, y: 77.5}
+        - {x: -11, y: 77.5}
+        - {x: -22, y: 69.5}
+        - {x: -23, y: 52.5}
+        - {x: -23, y: -77.5}
+        - {x: 33, y: -77.5}
+        - {x: 33, y: 44.5}
+        - {x: 24, y: 39.5}
+      - - {x: -33, y: 19.5}
+        - {x: -33, y: -4.5}
+        - {x: -31, y: -4.5}
+        - {x: -29, y: -2.5}
+        - {x: -29, y: 17.5}
+        - {x: -31, y: 19.5}
+    - name: animations_ship_medium_10
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: -77.5}
+        - {x: -28, y: -77.5}
+        - {x: -28, y: -67.5}
+        - {x: -30, y: -65.5}
+        - {x: -33, y: -65.5}
+      - - {x: -21, y: -77.5}
+        - {x: 26, y: 77.5}
+        - {x: -21, y: 77.5}
+        - {x: -22, y: 73.5}
+        - {x: -22, y: -77.5}
+      - - {x: -33, y: 39.5}
+        - {x: -33, y: -4.5}
+        - {x: -30, y: -4.5}
+        - {x: -28, y: -2.5}
+        - {x: -28, y: 37.5}
+        - {x: -30, y: 39.5}
+    - name: animations_ship_medium_11
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: -77.5}
+        - {x: -30, y: -77.5}
+        - {x: -30, y: -67.5}
+        - {x: -32, y: -65.5}
+        - {x: -33, y: -65.5}
+      - - {x: 21, y: 37.5}
+        - {x: 25, y: 42.5}
+        - {x: 26, y: 73.5}
+        - {x: 22, y: 77.5}
+        - {x: -17, y: 77.5}
+        - {x: -24, y: 76.5}
+        - {x: -24, y: -77.5}
+        - {x: 33, y: -77.5}
+        - {x: 33, y: 42.5}
+        - {x: 23, y: 39.5}
+      - - {x: -33, y: -4.5}
+        - {x: -30, y: -3.5}
+        - {x: -30, y: 32.5}
+        - {x: -32, y: 34.5}
+        - {x: -33, y: 34.5}
+    - name: animations_ship_medium_12
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: -77.5}
+        - {x: -30, y: -77.5}
+        - {x: -30, y: -67.5}
+        - {x: -32, y: -65.5}
+        - {x: -33, y: -65.5}
+      - - {x: 33, y: -29.5}
+        - {x: 33, y: 53.5}
+        - {x: 26, y: 73.5}
+        - {x: 22, y: 77.5}
+        - {x: -17, y: 77.5}
+        - {x: -24, y: 64.5}
+        - {x: -24, y: -77.5}
+        - {x: 33, y: -77.5}
+        - {x: 33, y: -65.5}
+        - {x: 28, y: -60.5}
+      - - {x: -33, y: -4.5}
+        - {x: -30, y: -3.5}
+        - {x: -30, y: 37.5}
+        - {x: -32, y: 39.5}
+        - {x: -33, y: 39.5}
+    - name: animations_ship_medium_13
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 77.5}
+        - {x: -25, y: 57.5}
+        - {x: -25, y: -77.5}
+        - {x: 33, y: -77.5}
+        - {x: 33, y: 70.5}
+        - {x: 24, y: 77.5}
+    - name: animations_ship_medium_14
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 0
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: -77.5}
+        - {x: -30, y: -77.5}
+        - {x: -30, y: -67.5}
+        - {x: -32, y: -65.5}
+        - {x: -33, y: -65.5}
+      - - {x: -24, y: -77.5}
+        - {x: 33, y: -77.5}
+        - {x: 33, y: 3.5}
+        - {x: 32, y: 28.5}
+        - {x: 25, y: 77.5}
+        - {x: -20, y: 77.5}
+        - {x: -24, y: 76.5}
+      - - {x: -33, y: -4.5}
+        - {x: -30, y: -3.5}
+        - {x: -30, y: 57.5}
+        - {x: -32, y: 59.5}
+        - {x: -33, y: 59.5}
     outline: []
   spritePackingTag: 
   userData: 

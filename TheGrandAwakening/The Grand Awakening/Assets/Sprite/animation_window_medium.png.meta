@@ -1,9 +1,28 @@
 fileFormatVersion: 2
 guid: ca6f2d6af6a652a43b9f3b40c1ddca23
-timeCreated: 1454184293
+timeCreated: 1454189261
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: animation_window_medium_0
+    21300002: animation_window_medium_1
+    21300004: animation_window_medium_2
+    21300006: animation_window_medium_3
+    21300008: animation_window_medium_4
+    21300010: animation_window_medium_5
+    21300012: animation_window_medium_6
+    21300014: animation_window_medium_7
+    21300016: animation_window_medium_8
+    21300018: animation_window_medium_9
+    21300020: animation_window_medium_10
+    21300022: animation_window_medium_11
+    21300024: animation_window_medium_12
+    21300026: animation_window_medium_13
+    21300028: animation_window_medium_14
+    21300030: animation_window_medium_15
+    21300032: animation_window_medium_16
+    21300034: animation_window_medium_17
+    21300036: animation_window_medium_18
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,26 +49,396 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: animation_window_medium_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 78}
+        - {x: -25, y: 78}
+        - {x: -30, y: 53}
+        - {x: -30, y: -74}
+        - {x: -28, y: -78}
+        - {x: 33, y: -78}
+        - {x: 33, y: 8}
+        - {x: 29, y: 76}
+    - name: animation_window_medium_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 154
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 78}
+        - {x: -26, y: -78}
+        - {x: 33, y: -78}
+        - {x: 33, y: 78}
+    - name: animation_window_medium_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 154
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 78}
+        - {x: -27, y: 75}
+        - {x: -27, y: -78}
+        - {x: 22, y: -78}
+        - {x: 22, y: 72}
+        - {x: 21, y: 78}
+    - name: animation_window_medium_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 154
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -59}
+        - {x: 17, y: 74}
+        - {x: 16, y: 78}
+        - {x: -27, y: 78}
+        - {x: -33, y: 76}
+        - {x: -33, y: -33}
+        - {x: -31, y: -34}
+        - {x: -21, y: -34}
+        - {x: -19, y: -32}
+        - {x: -32, y: -64}
+        - {x: -33, y: -67}
+        - {x: -33, y: -77}
+        - {x: -32, y: -78}
+        - {x: 25, y: -78}
+        - {x: 26, y: -77}
+        - {x: 26, y: -65}
+    - name: animation_window_medium_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 154
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -78}
+        - {x: -21, y: -75}
+        - {x: -28, y: -75}
+        - {x: -29, y: -78}
+      - - {x: -23, y: 78}
+        - {x: -24, y: 76}
+        - {x: -24, y: -68}
+        - {x: -23, y: -78}
+        - {x: 25, y: -78}
+        - {x: 25, y: 77}
+        - {x: 21, y: 78}
+    - name: animation_window_medium_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 154
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -59}
+        - {x: 15, y: 74}
+        - {x: 14, y: 78}
+        - {x: -29, y: 78}
+        - {x: -33, y: 77}
+        - {x: -33, y: -34}
+        - {x: -23, y: -34}
+        - {x: -21, y: -32}
+        - {x: -33, y: -61}
+        - {x: -33, y: -78}
+        - {x: 23, y: -78}
+        - {x: 24, y: -77}
+        - {x: 24, y: -65}
+      - - {x: 30, y: -77}
+        - {x: 31, y: -78}
+        - {x: 33, y: -78}
+        - {x: 33, y: -65}
+        - {x: 30, y: -66}
+      - - {x: 30, y: -32}
+        - {x: 32, y: -34}
+        - {x: 33, y: -34}
+        - {x: 33, y: 25}
+        - {x: 30, y: 24}
+    - name: animation_window_medium_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 154
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 78}
+        - {x: -33, y: 68}
+        - {x: -33, y: -78}
+        - {x: 23, y: -78}
+        - {x: 23, y: 78}
+    - name: animation_window_medium_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 154
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -78}
+        - {x: 11, y: -75}
+        - {x: -16, y: -75}
+        - {x: -17, y: -78}
+    - name: animation_window_medium_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 154
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -78}
+        - {x: 10, y: -75}
+        - {x: -17, y: -75}
+        - {x: -18, y: -78}
+      - - {x: -24, y: -31}
+        - {x: -22, y: -31}
+        - {x: -19, y: -30}
+        - {x: -19, y: -26}
+        - {x: -20, y: -24}
+        - {x: -22, y: -24}
+        - {x: -25, y: -25}
+        - {x: -25, y: -29}
+    - name: animation_window_medium_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 78}
+        - {x: -30, y: -54}
+        - {x: -25, y: -78}
+        - {x: 33, y: -78}
+        - {x: 33, y: 78}
+    - name: animation_window_medium_10
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 78}
+        - {x: -27, y: -78}
+        - {x: 32, y: -78}
+        - {x: 32, y: 78}
+    - name: animation_window_medium_11
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 78}
+        - {x: -28, y: 75}
+        - {x: -28, y: -35}
+        - {x: -12, y: -78}
+        - {x: 21, y: -78}
+        - {x: 21, y: 78}
+    - name: animation_window_medium_12
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 0
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 78}
+        - {x: -33, y: -78}
+        - {x: 25, y: -78}
+        - {x: 25, y: 78}
+    - name: animation_window_medium_13
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 78}
+        - {x: -33, y: 78}
+        - {x: -33, y: -52}
+        - {x: -30, y: -78}
+        - {x: 30, y: -78}
+        - {x: 30, y: -66}
+        - {x: 24, y: -60}
+      - - {x: -33, y: 44}
+        - {x: -33, y: 33}
+        - {x: -30, y: 30}
+        - {x: -21, y: 30}
+        - {x: -20, y: 32}
+        - {x: -20, y: 40}
+        - {x: -25, y: 44}
+    - name: animation_window_medium_14
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 78}
+        - {x: -33, y: 13}
+        - {x: -31, y: -33}
+        - {x: -29, y: -35}
+        - {x: -19, y: -35}
+        - {x: -17, y: -33}
+        - {x: -32, y: -67}
+        - {x: -31, y: -78}
+        - {x: 28, y: -78}
+        - {x: 28, y: 49}
+        - {x: 23, y: 78}
+      - - {x: 29, y: 78}
+        - {x: 30, y: 75}
+        - {x: 33, y: 75}
+        - {x: 33, y: 78}
+    - name: animation_window_medium_15
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 0
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: -78}
+        - {x: 22, y: 78}
+        - {x: -33, y: 78}
+        - {x: -33, y: -75}
+        - {x: -32, y: -78}
+    - name: animation_window_medium_16
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 0
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 78}
+        - {x: -28, y: -45}
+        - {x: -24, y: -78}
+        - {x: 21, y: -78}
+        - {x: 21, y: 78}
+    - name: animation_window_medium_17
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 0
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 78}
+        - {x: -27, y: 78}
+        - {x: -33, y: 56}
+        - {x: -33, y: -78}
+        - {x: 25, y: -78}
+        - {x: 25, y: 47}
+        - {x: 23, y: 77}
+    - name: animation_window_medium_18
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 0
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 78}
+        - {x: -23, y: 78}
+        - {x: -29, y: 59}
+        - {x: -29, y: -78}
+        - {x: 30, y: -78}
+        - {x: 30, y: 18}
+        - {x: 26, y: 75}
     outline: []
   spritePackingTag: 
   userData: 

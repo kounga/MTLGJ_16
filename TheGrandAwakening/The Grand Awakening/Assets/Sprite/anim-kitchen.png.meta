@@ -1,13 +1,6 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: d4bf862344fe56e40bc7598f32d8a636
-timeCreated: 1454188033
-licenseType: Free
-TextureImporter:
-  fileIDToRecycleName: {}
-=======
-guid: 5c9d835519314cf4bb16481ec45116a0
-timeCreated: 1454180663
+timeCreated: 1454189129
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -51,20 +44,6 @@ TextureImporter:
     21300074: anim-kitchen_37
     21300076: anim-kitchen_38
     21300078: anim-kitchen_39
-    21300080: anim-kitchen_40
-    21300082: anim-kitchen_41
-    21300084: anim-kitchen_42
-    21300086: anim-kitchen_43
-    21300088: anim-kitchen_44
-    21300090: anim-kitchen_45
-    21300092: anim-kitchen_46
-    21300094: anim-kitchen_47
-    21300096: anim-kitchen_48
-    21300098: anim-kitchen_49
-    21300100: anim-kitchen_50
-    21300102: anim-kitchen_51
-    21300104: anim-kitchen_52
->>>>>>> 18f9512fcf55f94ec7b12ca984cc336460c43adf
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -91,39 +70,21 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-<<<<<<< HEAD
-    aniso: -1
-    mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
-=======
     aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
->>>>>>> 18f9512fcf55f94ec7b12ca984cc336460c43adf
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-<<<<<<< HEAD
-  spriteMode: 0
-=======
   spriteMode: 2
->>>>>>> 18f9512fcf55f94ec7b12ca984cc336460c43adf
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-<<<<<<< HEAD
-  alphaIsTransparency: 0
-  textureType: -1
-  buildTargetSettings: []
-  spriteSheet:
-    sprites: []
-=======
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
@@ -133,1090 +94,724 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 775
-        width: 65
-        height: 155
+        y: 773
+        width: 66
+        height: 157
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -23.5, y: 77.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 43.5}
-        - {x: 26.5, y: 77.5}
+      - - {x: 25, y: 78.5}
+        - {x: -24, y: 78.5}
+        - {x: -24, y: -78.5}
+        - {x: 33, y: -78.5}
+        - {x: 33, y: 5.5}
+        - {x: 32, y: 29.5}
     - name: anim-kitchen_1
       rect:
         serializedVersion: 2
-        x: 65
-        y: 775
-        width: 65
-        height: 155
+        x: 66
+        y: 773
+        width: 66
+        height: 157
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -23.5, y: 77.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
+      - - {x: 26, y: 78.5}
+        - {x: -25, y: 78.5}
+        - {x: -25, y: -78.5}
+        - {x: 33, y: -78.5}
+        - {x: 33, y: 60.5}
+        - {x: 31, y: 77.5}
     - name: anim-kitchen_2
       rect:
         serializedVersion: 2
-        x: 130
-        y: 775
-        width: 65
-        height: 155
+        x: 132
+        y: 773
+        width: 66
+        height: 157
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -19.5, y: 77.5}
-        - {x: -23.5, y: 74.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
+      - - {x: 31, y: 78.5}
+        - {x: -26, y: 78.5}
+        - {x: -26, y: -78.5}
+        - {x: 33, y: -78.5}
+        - {x: 33, y: 24.5}
     - name: anim-kitchen_3
       rect:
         serializedVersion: 2
-        x: 195
-        y: 775
-        width: 65
-        height: 155
+        x: 198
+        y: 773
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -14.5, y: 77.5}
-        - {x: -23.5, y: 61.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
+      - - {x: -27, y: 78.5}
+        - {x: -27, y: -78.5}
+        - {x: 32, y: -78.5}
+        - {x: 32, y: 72.5}
+        - {x: 31, y: 78.5}
     - name: anim-kitchen_4
       rect:
         serializedVersion: 2
-        x: 260
-        y: 775
-        width: 65
-        height: 155
+        x: 264
+        y: 773
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -14.5, y: 77.5}
-        - {x: -23.5, y: 61.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
+      - - {x: -28, y: 78.5}
+        - {x: -28, y: -78.5}
+        - {x: 31, y: -78.5}
+        - {x: 31, y: 72.5}
+        - {x: 30, y: 78.5}
     - name: anim-kitchen_5
       rect:
         serializedVersion: 2
-        x: 325
-        y: 775
-        width: 65
-        height: 155
+        x: 330
+        y: 773
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -19.5, y: 77.5}
-        - {x: -23.5, y: 74.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
+      - - {x: -25, y: 78.5}
+        - {x: -29, y: 77.5}
+        - {x: -29, y: -78.5}
+        - {x: 30, y: -78.5}
+        - {x: 30, y: 78.5}
     - name: anim-kitchen_6
       rect:
         serializedVersion: 2
-        x: 390
-        y: 775
-        width: 65
-        height: 155
+        x: 396
+        y: 773
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -23.5, y: 77.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
+      - - {x: -28, y: 78.5}
+        - {x: -30, y: 77.5}
+        - {x: -30, y: -78.5}
+        - {x: 29, y: -78.5}
+        - {x: 29, y: 78.5}
     - name: anim-kitchen_7
       rect:
         serializedVersion: 2
-        x: 455
-        y: 775
-        width: 65
-        height: 155
+        x: 462
+        y: 773
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -23.5, y: 77.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
+      - - {x: -24, y: 78.5}
+        - {x: -31, y: 61.5}
+        - {x: -31, y: -78.5}
+        - {x: 28, y: -78.5}
+        - {x: 28, y: 78.5}
     - name: anim-kitchen_8
       rect:
         serializedVersion: 2
-        x: 520
-        y: 775
-        width: 65
-        height: 155
+        x: 0
+        y: 616
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -23.5, y: 77.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
+      - - {x: -14, y: 78.5}
+        - {x: -23, y: 72.5}
+        - {x: -24, y: 61.5}
+        - {x: -24, y: -77.5}
+        - {x: -23, y: -78.5}
+        - {x: 33, y: -78.5}
+        - {x: 33, y: 12.5}
+        - {x: 30, y: 78.5}
     - name: anim-kitchen_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 620
-        width: 65
-        height: 155
+        x: 66
+        y: 616
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -23.5, y: 77.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 43.5}
-        - {x: 26.5, y: 77.5}
+      - - {x: -18, y: 78.5}
+        - {x: -24, y: 72.5}
+        - {x: -25, y: 28.5}
+        - {x: -25, y: -75.5}
+        - {x: -19, y: -78.5}
+        - {x: 33, y: -78.5}
+        - {x: 33, y: 78.5}
     - name: anim-kitchen_10
       rect:
         serializedVersion: 2
-        x: 65
-        y: 620
-        width: 65
-        height: 155
+        x: 132
+        y: 616
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -23.5, y: 77.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
+      - - {x: -19, y: 78.5}
+        - {x: -26, y: 76.5}
+        - {x: -26, y: -0.5}
+        - {x: -25, y: -4.5}
+        - {x: -26, y: -16.5}
+        - {x: -26, y: -78.5}
+        - {x: 32, y: -78.5}
+        - {x: 33, y: -75.5}
+        - {x: 33, y: -8.5}
+        - {x: 28, y: 78.5}
     - name: anim-kitchen_11
       rect:
         serializedVersion: 2
-        x: 130
-        y: 620
-        width: 65
-        height: 155
+        x: 198
+        y: 616
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -19.5, y: 77.5}
-        - {x: -23.5, y: 74.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
+      - - {x: -27, y: 78.5}
+        - {x: -27, y: -78.5}
+        - {x: 31, y: -78.5}
+        - {x: 32, y: -77.5}
+        - {x: 32, y: 59.5}
+        - {x: 29, y: 78.5}
     - name: anim-kitchen_12
       rect:
         serializedVersion: 2
-        x: 195
-        y: 620
-        width: 65
-        height: 155
+        x: 264
+        y: 616
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -14.5, y: 77.5}
-        - {x: -23.5, y: 61.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
+      - - {x: -28, y: 78.5}
+        - {x: -28, y: -78.5}
+        - {x: 31, y: -78.5}
+        - {x: 31, y: 59.5}
+        - {x: 28, y: 78.5}
     - name: anim-kitchen_13
       rect:
         serializedVersion: 2
-        x: 260
-        y: 620
-        width: 65
-        height: 155
+        x: 330
+        y: 616
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -14.5, y: 77.5}
-        - {x: -23.5, y: 61.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
+      - - {x: -29, y: 78.5}
+        - {x: -29, y: -78.5}
+        - {x: 29, y: -78.5}
+        - {x: 30, y: -77.5}
+        - {x: 30, y: 55.5}
+        - {x: 26, y: 78.5}
     - name: anim-kitchen_14
       rect:
         serializedVersion: 2
-        x: 325
-        y: 620
-        width: 65
-        height: 155
+        x: 396
+        y: 616
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -19.5, y: 77.5}
-        - {x: -23.5, y: 74.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
+      - - {x: -29, y: 78.5}
+        - {x: -30, y: 75.5}
+        - {x: -30, y: -77.5}
+        - {x: -26, y: -78.5}
+        - {x: 28, y: -78.5}
+        - {x: 29, y: -75.5}
+        - {x: 29, y: 5.5}
+        - {x: 26, y: 78.5}
     - name: anim-kitchen_15
       rect:
         serializedVersion: 2
-        x: 390
-        y: 620
-        width: 65
-        height: 155
+        x: 462
+        y: 616
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -23.5, y: 77.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
+      - - {x: -31, y: 78.5}
+        - {x: -31, y: -78.5}
+        - {x: 28, y: -78.5}
+        - {x: 28, y: 70.5}
+        - {x: 24, y: 78.5}
     - name: anim-kitchen_16
       rect:
         serializedVersion: 2
-        x: 455
-        y: 620
-        width: 65
-        height: 155
+        x: 0
+        y: 459
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -23.5, y: 77.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
+      - - {x: 33, y: -68.5}
+        - {x: 33, y: 21.5}
+        - {x: 31, y: 35.5}
+        - {x: 23, y: 78.5}
+        - {x: -22, y: 78.5}
+        - {x: -25, y: 73.5}
+        - {x: -29, y: 62.5}
+        - {x: -29, y: -77.5}
+        - {x: -24, y: -78.5}
+        - {x: 20, y: -78.5}
+        - {x: 19, y: -75.5}
+        - {x: 28, y: -74.5}
+        - {x: 30, y: -72.5}
     - name: anim-kitchen_17
       rect:
         serializedVersion: 2
-        x: 520
-        y: 620
-        width: 65
-        height: 155
+        x: 66
+        y: 459
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -23.5, y: 77.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
+      - - {x: 33, y: -57.5}
+        - {x: 33, y: 50.5}
+        - {x: 24, y: 78.5}
+        - {x: -21, y: 78.5}
+        - {x: -26, y: 73.5}
+        - {x: -30, y: 34.5}
+        - {x: -30, y: -78.5}
+        - {x: 19, y: -78.5}
+        - {x: 18, y: -75.5}
+        - {x: 27, y: -74.5}
+        - {x: 29, y: -72.5}
     - name: anim-kitchen_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 465
-        width: 65
-        height: 155
+        x: 132
+        y: 459
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 28.5, y: 77.5}
-        - {x: -19.5, y: 77.5}
-        - {x: -24.5, y: 68.5}
-        - {x: -28.5, y: 51.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 30.5, y: -77.5}
-        - {x: 32.5, y: -55.5}
-        - {x: 32.5, y: 31.5}
+      - - {x: 28, y: 78.5}
+        - {x: -24, y: 78.5}
+        - {x: -27, y: 73.5}
+        - {x: -31, y: 34.5}
+        - {x: -31, y: -78.5}
+        - {x: 18, y: -78.5}
+        - {x: 17, y: -75.5}
+        - {x: 26, y: -74.5}
+        - {x: 28, y: -72.5}
     - name: anim-kitchen_19
       rect:
         serializedVersion: 2
-        x: 65
-        y: 465
-        width: 65
-        height: 155
+        x: 198
+        y: 459
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -21.5, y: 77.5}
-        - {x: -28.5, y: 75.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 68.5}
-        - {x: 27.5, y: 77.5}
-      - - {x: -32.5, y: -9.5}
-        - {x: -29.5, y: -8.5}
-        - {x: -29.5, y: 7.5}
-        - {x: -31.5, y: 9.5}
-        - {x: -32.5, y: 9.5}
+      - - {x: 27, y: 76.5}
+        - {x: 24, y: 78.5}
+        - {x: -32, y: 78.5}
+        - {x: -32, y: -78.5}
+        - {x: 17, y: -78.5}
+        - {x: 16, y: -75.5}
+        - {x: 25, y: -74.5}
+        - {x: 27, y: -72.5}
     - name: anim-kitchen_20
       rect:
         serializedVersion: 2
-        x: 130
-        y: 465
-        width: 65
-        height: 155
+        x: 264
+        y: 459
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 19.5, y: 77.5}
-        - {x: -28.5, y: 77.5}
-        - {x: -28.5, y: -77.5}
-        - {x: -27.5, y: -77.5}
-      - - {x: -32.5, y: -4.5}
-        - {x: -29.5, y: -3.5}
-        - {x: -29.5, y: 12.5}
-        - {x: -31.5, y: 14.5}
-        - {x: -32.5, y: 14.5}
+      - - {x: 26, y: 78.5}
+        - {x: -26, y: 78.5}
+        - {x: -33, y: 65.5}
+        - {x: -33, y: -78.5}
+        - {x: 16, y: -78.5}
+        - {x: 15, y: -75.5}
+        - {x: 24, y: -74.5}
+        - {x: 26, y: -73.5}
     - name: anim-kitchen_21
       rect:
         serializedVersion: 2
-        x: 195
-        y: 465
-        width: 65
-        height: 155
+        x: 330
+        y: 459
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -22.5, y: 77.5}
-        - {x: -28.5, y: 71.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 30.5, y: -77.5}
-        - {x: 30.5, y: 74.5}
-        - {x: 26.5, y: 77.5}
+      - - {x: 30, y: 78.5}
+        - {x: -29, y: 78.5}
+        - {x: -29, y: -77.5}
+        - {x: -24, y: -78.5}
+        - {x: 20, y: -78.5}
+        - {x: 19, y: -75.5}
+        - {x: 28, y: -74.5}
+        - {x: 30, y: -72.5}
     - name: anim-kitchen_22
       rect:
         serializedVersion: 2
-        x: 260
-        y: 465
-        width: 65
-        height: 155
+        x: 396
+        y: 459
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -22.5, y: 77.5}
-        - {x: -28.5, y: 71.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 30.5, y: -77.5}
-        - {x: 30.5, y: 74.5}
-        - {x: 26.5, y: 77.5}
+      - - {x: 33, y: -63.5}
+        - {x: 33, y: 26.5}
+        - {x: 22, y: 78.5}
+        - {x: -30, y: 78.5}
+        - {x: -30, y: -78.5}
+        - {x: 19, y: -78.5}
+        - {x: 18, y: -75.5}
+        - {x: 27, y: -74.5}
+        - {x: 29, y: -72.5}
     - name: anim-kitchen_23
       rect:
         serializedVersion: 2
-        x: 325
-        y: 465
-        width: 65
-        height: 155
+        x: 462
+        y: 459
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -11.5, y: 77.5}
-        - {x: -23.5, y: 75.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 70.5}
-        - {x: 27.5, y: 77.5}
+      - - {x: 33, y: -67.5}
+        - {x: 33, y: 29.5}
+        - {x: 28, y: 78.5}
+        - {x: -30, y: 78.5}
+        - {x: -31, y: 77.5}
+        - {x: -31, y: -78.5}
+        - {x: 18, y: -78.5}
+        - {x: 17, y: -75.5}
+        - {x: 26, y: -74.5}
     - name: anim-kitchen_24
       rect:
         serializedVersion: 2
-        x: 390
-        y: 465
-        width: 65
-        height: 155
+        x: 0
+        y: 302
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -19.5, y: 77.5}
-        - {x: -23.5, y: 76.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 39.5}
-        - {x: 26.5, y: 77.5}
-      - - {x: -32.5, y: 20.5}
-        - {x: -29.5, y: 21.5}
-        - {x: -29.5, y: 37.5}
-        - {x: -31.5, y: 39.5}
-        - {x: -32.5, y: 39.5}
+      - - {x: -26, y: 78.5}
+        - {x: -29, y: 77.5}
+        - {x: -29, y: -78.5}
+        - {x: 27, y: -78.5}
+        - {x: 33, y: -71.5}
+        - {x: 33, y: 58.5}
+        - {x: 31, y: 78.5}
     - name: anim-kitchen_25
       rect:
         serializedVersion: 2
-        x: 455
-        y: 465
-        width: 65
-        height: 155
+        x: 66
+        y: 302
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -19.5, y: 77.5}
-        - {x: -23.5, y: 76.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 39.5}
-        - {x: 26.5, y: 77.5}
-      - - {x: -32.5, y: 9.5}
-        - {x: -32.5, y: -9.5}
-        - {x: -26.5, y: -9.5}
-        - {x: -24.5, y: -7.5}
-        - {x: -24.5, y: 7.5}
-        - {x: -26.5, y: 9.5}
+      - - {x: -21, y: 78.5}
+        - {x: -25, y: 74.5}
+        - {x: -30, y: 32.5}
+        - {x: -30, y: -78.5}
+        - {x: 31, y: -78.5}
+        - {x: 33, y: -77.5}
+        - {x: 33, y: 37.5}
+        - {x: 19, y: 78.5}
     - name: anim-kitchen_26
       rect:
         serializedVersion: 2
-        x: 520
-        y: 465
-        width: 65
-        height: 155
+        x: 132
+        y: 302
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -19.5, y: 77.5}
-        - {x: -23.5, y: 76.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 39.5}
-        - {x: 26.5, y: 77.5}
-      - - {x: -32.5, y: 9.5}
-        - {x: -32.5, y: -9.5}
-        - {x: -26.5, y: -9.5}
-        - {x: -24.5, y: -7.5}
-        - {x: -24.5, y: 7.5}
-        - {x: -26.5, y: 9.5}
+      - - {x: -22, y: 78.5}
+        - {x: -26, y: 74.5}
+        - {x: -31, y: 32.5}
+        - {x: -31, y: -78.5}
+        - {x: 27, y: -78.5}
+        - {x: 28, y: -77.5}
+        - {x: 28, y: 78.5}
     - name: anim-kitchen_27
       rect:
         serializedVersion: 2
-        x: 0
-        y: 310
-        width: 65
-        height: 155
+        x: 198
+        y: 302
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 28.5, y: 77.5}
-        - {x: -19.5, y: 77.5}
-        - {x: -24.5, y: 68.5}
-        - {x: -28.5, y: 51.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 30.5, y: -77.5}
-        - {x: 32.5, y: -55.5}
-        - {x: 32.5, y: 31.5}
+      - - {x: -32, y: 78.5}
+        - {x: -32, y: -78.5}
+        - {x: 24, y: -78.5}
+        - {x: 27, y: -74.5}
+        - {x: 27, y: 78.5}
     - name: anim-kitchen_28
       rect:
         serializedVersion: 2
-        x: 65
-        y: 310
-        width: 65
-        height: 155
+        x: 264
+        y: 302
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -21.5, y: 77.5}
-        - {x: -28.5, y: 75.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 68.5}
-        - {x: 27.5, y: 77.5}
-      - - {x: -32.5, y: -9.5}
-        - {x: -29.5, y: -8.5}
-        - {x: -29.5, y: 7.5}
-        - {x: -31.5, y: 9.5}
-        - {x: -32.5, y: 9.5}
+      - - {x: -33, y: 78.5}
+        - {x: -33, y: -78.5}
+        - {x: 23, y: -78.5}
+        - {x: 26, y: -73.5}
+        - {x: 26, y: 66.5}
+        - {x: 18, y: 78.5}
     - name: anim-kitchen_29
       rect:
         serializedVersion: 2
-        x: 130
-        y: 310
-        width: 65
-        height: 155
+        x: 330
+        y: 302
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 19.5, y: 77.5}
-        - {x: -28.5, y: 77.5}
-        - {x: -28.5, y: -77.5}
-        - {x: -27.5, y: -77.5}
-      - - {x: -32.5, y: -4.5}
-        - {x: -29.5, y: -3.5}
-        - {x: -29.5, y: 12.5}
-        - {x: -31.5, y: 14.5}
-        - {x: -32.5, y: 14.5}
+      - - {x: -29, y: 78.5}
+        - {x: -29, y: -78.5}
+        - {x: 30, y: -78.5}
+        - {x: 30, y: 70.5}
+        - {x: 21, y: 78.5}
     - name: anim-kitchen_30
       rect:
         serializedVersion: 2
-        x: 195
-        y: 310
-        width: 65
-        height: 155
+        x: 396
+        y: 302
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -22.5, y: 77.5}
-        - {x: -28.5, y: 71.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 30.5, y: -77.5}
-        - {x: 30.5, y: 74.5}
-        - {x: 26.5, y: 77.5}
+      - - {x: -30, y: 78.5}
+        - {x: -30, y: -78.5}
+        - {x: 33, y: -78.5}
+        - {x: 33, y: 55.5}
+        - {x: 21, y: 78.5}
     - name: anim-kitchen_31
       rect:
         serializedVersion: 2
-        x: 260
-        y: 310
-        width: 65
-        height: 155
+        x: 462
+        y: 302
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -22.5, y: 77.5}
-        - {x: -28.5, y: 71.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 30.5, y: -77.5}
-        - {x: 30.5, y: 74.5}
-        - {x: 26.5, y: 77.5}
+      - - {x: -31, y: 78.5}
+        - {x: -31, y: -72.5}
+        - {x: 33, y: -72.5}
+        - {x: 33, y: 54.5}
+        - {x: 20, y: 78.5}
     - name: anim-kitchen_32
       rect:
         serializedVersion: 2
-        x: 325
-        y: 310
-        width: 65
-        height: 155
+        x: 0
+        y: 145
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -11.5, y: 77.5}
-        - {x: -23.5, y: 75.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 70.5}
-        - {x: 27.5, y: 77.5}
+      - - {x: 21, y: 78.5}
+        - {x: -29, y: 78.5}
+        - {x: -29, y: -78.5}
+        - {x: 26, y: -78.5}
+        - {x: 30, y: -71.5}
+        - {x: 30, y: 12.5}
+        - {x: 27, y: 37.5}
     - name: anim-kitchen_33
       rect:
         serializedVersion: 2
-        x: 390
-        y: 310
-        width: 65
-        height: 155
+        x: 66
+        y: 145
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -19.5, y: 77.5}
-        - {x: -23.5, y: 76.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 39.5}
-        - {x: 26.5, y: 77.5}
-      - - {x: -32.5, y: 20.5}
-        - {x: -29.5, y: 21.5}
-        - {x: -29.5, y: 37.5}
-        - {x: -31.5, y: 39.5}
-        - {x: -32.5, y: 39.5}
+      - - {x: 23, y: -50.5}
+        - {x: 29, y: 6.5}
+        - {x: 29, y: 43.5}
+        - {x: 19, y: 78.5}
+        - {x: -30, y: 78.5}
+        - {x: -30, y: -77.5}
+        - {x: -23, y: -78.5}
+        - {x: 20, y: -78.5}
+        - {x: 28, y: -72.5}
+        - {x: 29, y: -69.5}
+        - {x: 29, y: -54.5}
     - name: anim-kitchen_34
       rect:
         serializedVersion: 2
-        x: 455
-        y: 310
-        width: 65
-        height: 155
+        x: 132
+        y: 145
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -19.5, y: 77.5}
-        - {x: -23.5, y: 76.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 39.5}
-        - {x: 26.5, y: 77.5}
-      - - {x: -32.5, y: 9.5}
-        - {x: -32.5, y: -9.5}
-        - {x: -26.5, y: -9.5}
-        - {x: -24.5, y: -7.5}
-        - {x: -24.5, y: 7.5}
-        - {x: -26.5, y: 9.5}
+      - - {x: 33, y: 60.5}
+        - {x: 23, y: 78.5}
+        - {x: -27, y: 78.5}
+        - {x: -31, y: 64.5}
+        - {x: -31, y: -74.5}
+        - {x: -28, y: -78.5}
+        - {x: 19, y: -78.5}
+        - {x: 27, y: -72.5}
+        - {x: 31, y: -57.5}
+        - {x: 33, y: -41.5}
     - name: anim-kitchen_35
       rect:
         serializedVersion: 2
-        x: 520
-        y: 310
-        width: 65
-        height: 155
+        x: 198
+        y: 145
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: -19.5, y: 77.5}
-        - {x: -23.5, y: 76.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 39.5}
-        - {x: 26.5, y: 77.5}
-      - - {x: -32.5, y: 9.5}
-        - {x: -32.5, y: -9.5}
-        - {x: -26.5, y: -9.5}
-        - {x: -24.5, y: -7.5}
-        - {x: -24.5, y: 7.5}
-        - {x: -26.5, y: 9.5}
+      - - {x: -32, y: 78.5}
+        - {x: -32, y: -78.5}
+        - {x: 23, y: -78.5}
+        - {x: 27, y: -70.5}
+        - {x: 27, y: 30.5}
+        - {x: 22, y: 78.5}
     - name: anim-kitchen_36
       rect:
         serializedVersion: 2
-        x: 0
-        y: 155
-        width: 65
-        height: 155
+        x: 264
+        y: 145
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -21.5, y: 77.5}
-        - {x: -28.5, y: 61.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 30.5, y: -77.5}
-        - {x: 30.5, y: 45.5}
-        - {x: 21.5, y: 77.5}
+      - - {x: -33, y: 78.5}
+        - {x: -33, y: -71.5}
+        - {x: -24, y: -78.5}
+        - {x: 22, y: -78.5}
+        - {x: 31, y: -61.5}
+        - {x: 31, y: 41.5}
+        - {x: 16, y: 78.5}
     - name: anim-kitchen_37
       rect:
         serializedVersion: 2
-        x: 65
-        y: 155
-        width: 65
-        height: 155
+        x: 330
+        y: 145
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -24.5, y: 77.5}
-        - {x: -28.5, y: 65.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 30.5, y: -77.5}
-        - {x: 30.5, y: 77.5}
+      - - {x: -33, y: 78.5}
+        - {x: -33, y: -78.5}
+        - {x: 21, y: -78.5}
+        - {x: 25, y: -70.5}
+        - {x: 25, y: 30.5}
+        - {x: 20, y: 78.5}
     - name: anim-kitchen_38
       rect:
         serializedVersion: 2
-        x: 130
-        y: 155
-        width: 65
-        height: 155
+        x: 396
+        y: 145
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -28.5, y: 77.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
+      - - {x: 20, y: 78.5}
+        - {x: -25, y: 78.5}
+        - {x: -30, y: 71.5}
+        - {x: -30, y: -77.5}
+        - {x: -24, y: -78.5}
+        - {x: 27, y: -78.5}
+        - {x: 29, y: -73.5}
+        - {x: 29, y: 12.5}
+        - {x: 26, y: 37.5}
     - name: anim-kitchen_39
       rect:
         serializedVersion: 2
-        x: 195
-        y: 155
-        width: 65
-        height: 155
+        x: 462
+        y: 145
+        width: 66
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 16.5, y: 77.5}
-        - {x: -28.5, y: 77.5}
-        - {x: -28.5, y: -77.5}
-      - - {x: -32.5, y: 20.5}
-        - {x: -29.5, y: 21.5}
-        - {x: -29.5, y: 27.5}
-        - {x: -31.5, y: 29.5}
-        - {x: -32.5, y: 29.5}
-    - name: anim-kitchen_40
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 155
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -28.5, y: 77.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
-    - name: anim-kitchen_41
-      rect:
-        serializedVersion: 2
-        x: 325
-        y: 155
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 16.5, y: 77.5}
-        - {x: -28.5, y: 77.5}
-        - {x: -28.5, y: -77.5}
-      - - {x: -32.5, y: 20.5}
-        - {x: -29.5, y: 21.5}
-        - {x: -29.5, y: 27.5}
-        - {x: -31.5, y: 29.5}
-        - {x: -32.5, y: 29.5}
-    - name: anim-kitchen_42
-      rect:
-        serializedVersion: 2
-        x: 390
-        y: 155
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 74.5}
-        - {x: 30.5, y: 77.5}
-        - {x: -19.5, y: 77.5}
-        - {x: -23.5, y: 76.5}
-    - name: anim-kitchen_43
-      rect:
-        serializedVersion: 2
-        x: 455
-        y: 155
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-    - name: anim-kitchen_44
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -21.5, y: 77.5}
-        - {x: -28.5, y: 61.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 30.5, y: -77.5}
-        - {x: 30.5, y: 45.5}
-        - {x: 21.5, y: 77.5}
-    - name: anim-kitchen_45
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 0
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -24.5, y: 77.5}
-        - {x: -28.5, y: 65.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 30.5, y: -77.5}
-        - {x: 30.5, y: 77.5}
-    - name: anim-kitchen_46
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 0
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -28.5, y: 77.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 77.5}
-    - name: anim-kitchen_47
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 0
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 12.5, y: 40.5}
-        - {x: 11.5, y: 39.5}
-        - {x: 18.5, y: 40.5}
-        - {x: 20.5, y: 42.5}
-        - {x: 21.5, y: 73.5}
-        - {x: 20.5, y: 77.5}
-        - {x: -22.5, y: 77.5}
-        - {x: -28.5, y: 75.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 30.5, y: -77.5}
-        - {x: 30.5, y: 40.5}
-        - {x: 23.5, y: 39.5}
-      - - {x: -32.5, y: 20.5}
-        - {x: -29.5, y: 21.5}
-        - {x: -29.5, y: 27.5}
-        - {x: -31.5, y: 29.5}
-        - {x: -32.5, y: 29.5}
-    - name: anim-kitchen_48
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 0
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 12.5, y: 40.5}
-        - {x: 11.5, y: 39.5}
-        - {x: 18.5, y: 40.5}
-        - {x: 20.5, y: 42.5}
-        - {x: 21.5, y: 73.5}
-        - {x: 20.5, y: 77.5}
-        - {x: -22.5, y: 77.5}
-        - {x: -28.5, y: 75.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 30.5, y: -77.5}
-        - {x: 30.5, y: 40.5}
-        - {x: 23.5, y: 39.5}
-    - name: anim-kitchen_49
-      rect:
-        serializedVersion: 2
-        x: 325
-        y: 0
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 12.5, y: 40.5}
-        - {x: 11.5, y: 39.5}
-        - {x: 18.5, y: 40.5}
-        - {x: 23.5, y: 40.5}
-        - {x: 21.5, y: 77.5}
-        - {x: -28.5, y: 77.5}
-        - {x: -28.5, y: -77.5}
-        - {x: 30.5, y: -77.5}
-        - {x: 30.5, y: 40.5}
-        - {x: 23.5, y: 39.5}
-    - name: anim-kitchen_50
-      rect:
-        serializedVersion: 2
-        x: 390
-        y: 0
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 17.5, y: 40.5}
-        - {x: 16.5, y: 39.5}
-        - {x: 23.5, y: 40.5}
-        - {x: 25.5, y: 42.5}
-        - {x: 26.5, y: 73.5}
-        - {x: 22.5, y: 77.5}
-        - {x: -16.5, y: 77.5}
-        - {x: -23.5, y: 65.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 40.5}
-        - {x: 28.5, y: 39.5}
-    - name: anim-kitchen_51
-      rect:
-        serializedVersion: 2
-        x: 455
-        y: 0
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32.5, y: -77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: -29.5, y: -67.5}
-        - {x: -31.5, y: -65.5}
-        - {x: -32.5, y: -65.5}
-      - - {x: 21.5, y: 39.5}
-        - {x: 28.5, y: 40.5}
-        - {x: 30.5, y: 42.5}
-        - {x: 31.5, y: 73.5}
-        - {x: 27.5, y: 77.5}
-        - {x: -14.5, y: 77.5}
-        - {x: -18.5, y: 76.5}
-        - {x: -18.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 39.5}
-        - {x: 22.5, y: 40.5}
-    - name: anim-kitchen_52
-      rect:
-        serializedVersion: 2
-        x: 520
-        y: 0
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32.5, y: -45.5}
-        - {x: -32.5, y: -77.5}
-        - {x: -24.5, y: -77.5}
-        - {x: -24.5, y: -62.5}
-        - {x: -29.5, y: -45.5}
-      - - {x: 17.5, y: 40.5}
-        - {x: 16.5, y: 39.5}
-        - {x: 23.5, y: 40.5}
-        - {x: 25.5, y: 42.5}
-        - {x: 26.5, y: 73.5}
-        - {x: 22.5, y: 77.5}
-        - {x: -16.5, y: 77.5}
-        - {x: -23.5, y: 65.5}
-        - {x: -23.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 40.5}
-        - {x: 28.5, y: 39.5}
-      - - {x: -32.5, y: -24.5}
-        - {x: -29.5, y: -23.5}
-        - {x: -29.5, y: 37.5}
-        - {x: -31.5, y: 39.5}
-        - {x: -32.5, y: 39.5}
->>>>>>> 18f9512fcf55f94ec7b12ca984cc336460c43adf
+      - - {x: -12, y: -66.5}
+        - {x: -16, y: -73.5}
+        - {x: -16, y: -78.5}
+        - {x: 23, y: -78.5}
+        - {x: 23, y: -71.5}
+        - {x: 19, y: -66.5}
     outline: []
   spritePackingTag: 
   userData: 
