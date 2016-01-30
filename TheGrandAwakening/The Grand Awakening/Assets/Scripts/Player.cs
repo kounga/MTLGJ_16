@@ -24,5 +24,8 @@ public class Player : MonoBehaviour {
 		if (Input.GetButton ("Down")) {
 			transform.Translate (new Vector3 (0f, 0f, -playerSpeed));
 		}
+		if (Input.GetButton ("Spin")) {
+			transform.Rotate (new Vector3 (0f, 10f, 0f));
+		}
 	}
 }
