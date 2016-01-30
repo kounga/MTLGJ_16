@@ -7,13 +7,16 @@ public class TabActions : MonoBehaviour {
 	public string[] actions;
 	public GameObject newText;
 	private GameObject[] textTab;
+	private PlayerMax player;
 	// Use this for initialization
 	void Start () {
+		player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMax>();
 		if(actions.Length != 0)
 		{
 			for (int i=0; i<actions.Length; i++) {
 				Vector3 posText= new Vector3(transform.position.x+1,transform.position.y+1+(0.08f*i),transform.position.z);
-				Instantiate(newText,posText,transform.rotation);
+				GameObject pom = (Instantiate(newText,posText,transform.rotation)as GameObject);
+				pom.transform.parent = transform;
 				TextMesh text = newText.transform.GetChild(0).GetComponent<TextMesh>();
 				text.text = actions[i];
 			}
@@ -43,7 +46,8 @@ public class TabActions : MonoBehaviour {
 
 		}
 		if (Input.GetButton("Use")) {
-			Debug.Log ("Use "+textTab[selectedTab].GetComponent<TextMesh>().text);
+			player.currentAction = textTab[selectedTab].GetComponent<TextMesh>().text;
+			Object.Destroy(this.gameObject);
 		}
 		if (Input.GetButton("Cancel"))
 			Debug.Log ("Annule");
