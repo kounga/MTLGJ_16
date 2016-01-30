@@ -10,7 +10,7 @@ public class PlayerMax : MonoBehaviour {
 	[SerializeField]
 	public GameObject tabActionPrefab;
 	private TabActions tabsGestion;
-	private bool spaceIsDown;
+	public bool spaceIsDown;
 	// Use this for initialization
 	void Start () {
 	}
