@@ -14,13 +14,13 @@ Platform assembly: C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Gr
 Loading C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.083 seconds
+- Completed reload, in  0.138 seconds
 Platform assembly: C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build1_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build1_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 3286x1308 at 0,-540
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.083654 ms
+UnloadTime: 1.020136 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: a94 -> priority: 1 
+  Thread -> id: 928 -> priority: 1 
