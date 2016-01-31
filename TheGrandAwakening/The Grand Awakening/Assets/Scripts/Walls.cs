@@ -10,7 +10,6 @@ public class Walls : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		color = GetComponent<Renderer> ().material.color;
-		player = GameObject.FindGameObjectWithTag ("Player");
 	}
 	
 	// Update is called once per frame

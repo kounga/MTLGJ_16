@@ -27,9 +27,9 @@ public class TabActions : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		if(Input.GetKeyDown(KeyCode.DownArrow))
+		if(Input.GetButtonDown("Down"))
 			selectedTab--;
-		else if(Input.GetKeyDown(KeyCode.UpArrow))
+		else if(Input.GetButtonDown("Up"))
 			selectedTab--;
 
 		if (selectedTab < 0)
