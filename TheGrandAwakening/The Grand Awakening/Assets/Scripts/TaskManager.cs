@@ -57,7 +57,7 @@ public class TaskManager : MonoBehaviour {
 					case "Look at the window":
 						player.lookAtWindowGood();
 						break;
-					case "Smell the flower":
+					case "Smell the flowers":
 						player.smellGood();
 						break;
 					case "Do yoga":
@@ -104,7 +104,7 @@ public class TaskManager : MonoBehaviour {
 					case "Look at the window":
 						player.lookAtWindowBad();
 						break;
-					case "Smell the flower":
+					case "Smell the flowers":
 						player.smellBad();
 						break;
 					case "Do yoga":

@@ -16,7 +16,8 @@ public class Timer : MonoBehaviour {
 
 	private typerAuto typer;
 	private Animator gameOverAnim;
-
+	[SerializeField]
+	private AudioSource audioEnd;
 
 	void Start(){
 		timer = timeLeft;
@@ -36,6 +37,8 @@ public class Timer : MonoBehaviour {
 			timeUPs = true;
 			gameOverAnim.SetBool ("fadeIn",true);
 			typer.StartCoroutine ("TypeIn"); 
+			GameObject.FindGameObjectWithTag("MainCamera").GetComponent<AudioSource>().Stop();
+			audioEnd.Play();
 
 		}
 	
