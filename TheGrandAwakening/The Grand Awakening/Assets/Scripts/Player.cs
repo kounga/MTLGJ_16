@@ -56,4 +56,28 @@ public class Player : MonoBehaviour {
 			animator.SetBool ("walking_down", false);
 		}
 	}
+
+	void drinkGoodCoffee() {
+		animator.SetTrigger ("coffeeGood");
+	}
+
+	void drinkBadCoffee() {
+		animator.SetTrigger ("coffeeBad");
+	}
+
+	void eatGoodToast() {
+		animator.SetTrigger ("toastGood");
+	}
+
+	void eatBadToast() {
+		animator.SetTrigger ("toastBad");
+	}
+
+	void eatGoodCereal() {
+		animator.SetTrigger ("cerealGood");
+	}
+
+	void eatBadCereal() {
+		animator.SetTrigger ("cerealBad");
+	}
 }
