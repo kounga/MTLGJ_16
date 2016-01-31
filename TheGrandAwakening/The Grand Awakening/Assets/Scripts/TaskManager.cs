@@ -33,13 +33,14 @@ public class TaskManager : MonoBehaviour {
 			if(player.currentAction == currentTask)
 			{
 				Debug.Log("GoodJob");
+				player.anim.Play(currentTask+"Good");
 				Object.Destroy(currentPictogram);
 				currentTaskId++;
 				addNewAction();
 				
 			}
 			else
-				Debug.Log("BOOH");
+				player.anim.Play(player.currentAction+"Bad");
 			player.currentAction = null;
 		}
 	}

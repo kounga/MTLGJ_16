@@ -13,6 +13,7 @@ public class PlayerMax : MonoBehaviour {
 	public bool spaceIsDown;
 	private float playerSpeed = 0.07f;
 	public Animator animator;
+	public Animation anim;
 	// Use this for initialization
 	void Start () {
 		animator = gameObject.GetComponent<Animator>();

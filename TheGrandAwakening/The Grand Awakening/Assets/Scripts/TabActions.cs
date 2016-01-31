@@ -50,6 +50,6 @@ public class TabActions : MonoBehaviour {
 			Object.Destroy(this.gameObject);
 		}
 		if (Input.GetButton("Cancel"))
-			Debug.Log ("Annule");
+			Object.Destroy(this.gameObject);
 	}
 }
