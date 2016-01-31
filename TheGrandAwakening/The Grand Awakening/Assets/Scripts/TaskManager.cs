@@ -41,7 +41,7 @@ public class TaskManager : MonoBehaviour {
 					case "Eat cereal":
 						player.eatGoodCereal();
 						break;
-					case "Eat Toast":
+					case "Eat toast":
 						player.eatGoodToast();
 						break;
 				}
@@ -60,8 +60,8 @@ public class TaskManager : MonoBehaviour {
 					case "Eat cereal":
 						player.eatBadCereal();
 						break;
-					case "Eat Toast":
-					case "Eat Bagel":
+					case "Eat toast":
+					case "Eat bagel":
 						player.eatBadToast();
 						break;
 				}
