@@ -18,7 +18,7 @@ public class TabActions : MonoBehaviour {
 		{
 			for (int i=0; i<actions.Length; i++) {
 				GameObject pickto = GameObject.FindGameObjectWithTag("Picktogram");
-				Vector3 posText = new Vector3(pickto.transform.position.x,pickto.transform.position.y-0.2f-(0.08f*i),pickto.transform.position.z);
+				Vector3 posText = new Vector3(pickto.transform.position.x+5f,pickto.transform.position.y-0.2f-(0.8f*i),pickto.transform.position.z);
 				GameObject pom = (Instantiate(newText,posText,transform.rotation)as GameObject);
 				pom.transform.parent = transform;
 				TextMesh text = pom.transform.GetChild(0).GetComponent<TextMesh>();
