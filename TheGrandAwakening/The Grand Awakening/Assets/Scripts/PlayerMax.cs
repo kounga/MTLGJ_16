@@ -157,4 +157,10 @@ public class PlayerMax : MonoBehaviour {
 	public void laptopBad() {
 		animator.SetTrigger ("laptopBad");
 	}
+	public void showerGood() {
+		animator.SetTrigger ("showerGood");
+	}
+	public void showerBad() {
+		animator.SetTrigger ("showerBad");
+	}
 }

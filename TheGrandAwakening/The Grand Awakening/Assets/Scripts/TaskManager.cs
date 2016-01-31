@@ -73,6 +73,9 @@ public class TaskManager : MonoBehaviour {
 					case "Go on facebook":
 						player.laptopGood();
 						break;
+					case "Get the shower":
+						player.showerGood();
+						break;
 				}
 				audioGood.Play();
 				GameObject.FindGameObjectWithTag("Score").GetComponent<GamePoints>().addPoints(20);
@@ -120,6 +123,10 @@ public class TaskManager : MonoBehaviour {
 					case "Go on facebook":
 						player.laptopBad();
 						GameObject.FindGameObjectWithTag("laptop").GetComponent<Animator>().SetTrigger("laptopBad");
+						break;
+					case "Get the shower":
+						Debug.Log("yo");
+						player.showerBad();
 						break;
 				}
 				audioBad.Play();
