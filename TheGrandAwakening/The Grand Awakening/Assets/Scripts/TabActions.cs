@@ -11,6 +11,9 @@ public class TabActions : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMax>();
+	
+	}
+	public void buildTabs(){
 		if(actions.Length != 0)
 		{
 			for (int i=0; i<actions.Length; i++) {
@@ -18,12 +21,11 @@ public class TabActions : MonoBehaviour {
 				Vector3 posText = new Vector3(pickto.transform.position.x,pickto.transform.position.y-0.2f-(0.08f*i),pickto.transform.position.z);
 				GameObject pom = (Instantiate(newText,posText,transform.rotation)as GameObject);
 				pom.transform.parent = transform;
-				TextMesh text = newText.transform.GetChild(0).GetComponent<TextMesh>();
+				TextMesh text = pom.transform.GetChild(0).GetComponent<TextMesh>();
 				text.text = actions[i];
 			}
 			textTab = GameObject.FindGameObjectsWithTag("TextTabs");
-		}
-	
+		}	
 	}
 	
 	// Update is called once per frame

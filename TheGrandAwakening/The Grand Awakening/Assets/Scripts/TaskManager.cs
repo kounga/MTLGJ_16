@@ -44,6 +44,28 @@ public class TaskManager : MonoBehaviour {
 					case "Eat toast":
 						player.eatGoodToast();
 						break;
+					case "Play with the cat":
+						player.ballCatGood();
+						break;
+					case "Pet the cat":
+						player.petCatGood();
+						break;
+					case "Look at the window":
+						player.lookAtWindowGood();
+						break;
+					case "Smell the flower":
+						player.smellGood();
+						break;
+					case "Do yoga":
+						player.doYogaGood();
+						break;
+					case "Go on the moon":
+					case "Go on Mars":
+						GameObject.FindGameObjectWithTag("fusee").GetComponent<Animator>().SetTrigger("moon");
+						break;
+					case "Open closet":
+						GameObject.FindGameObjectWithTag("closet").GetComponent<Animator>().SetTrigger("OpenGood");
+						break;
 				}
 				Object.Destroy(currentPictogram);
 				currentTaskId++;
@@ -63,6 +85,28 @@ public class TaskManager : MonoBehaviour {
 					case "Eat toast":
 					case "Eat bagel":
 						player.eatBadToast();
+						break;
+					case "Play with the cat":
+						player.ballCatBad();
+						break;
+					case "Pet the cat":
+						player.petCatBad();
+						break;
+					case "Look at the window":
+						player.lookAtWindowBad();
+						break;
+					case "Smell the flower":
+						player.smellBad();
+						break;
+					case "Do yoga":
+						player.doYogaBad();
+						break;
+					case "Go on the moon":
+					case "Go on Mars":
+						GameObject.FindGameObjectWithTag("fusee").GetComponent<Animator>().SetTrigger("moon");
+						break;
+					case "Open closet":
+						GameObject.FindGameObjectWithTag("closet").GetComponent<Animator>().SetTrigger("OpenGood");
 						break;
 				}
 			}

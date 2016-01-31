@@ -18,18 +18,27 @@ public class PlayerMax : MonoBehaviour {
 	void Start () {
 		animator = gameObject.GetComponent<Animator>();
 	}
-
+	private void OnTriggerEnter (Collider other){
+			if (other.gameObject.tag == "Object"){
+				targetObject = other.GetComponent<ObjectChat>();
+				if(targetObject.actions.Length !=0){
+					actions = targetObject.actions;
+				}
+				
+			}
+		}
 	void FixedUpdate () {
 
 		if (tabsGestion == null) {
-			if(targetObject != null)
+			if(targetObject != null && targetObject.actions.Length !=0)
 				if ((targetObject.buttonAction.activeSelf && Input.GetButtonDown("Use")) && !spaceIsDown)
 				{
 					spaceIsDown = true;
 					GameObject tab = (Instantiate(tabActionPrefab,transform.position,transform.rotation)as GameObject);
 					tab.transform.parent = mainCamera.transform;
 					tabsGestion = GameObject.FindGameObjectWithTag("Tabs").GetComponent<TabActions>();
-					tabsGestion.actions = actions;
+					tabsGestion.actions = targetObject.actions;
+					tabsGestion.buildTabs();
 				}
 			//Mouvement
 			if (Input.GetButton ("Left")) {
@@ -78,12 +87,6 @@ public class PlayerMax : MonoBehaviour {
 			spaceIsDown = false;
 
 	}
-	void OnTriggerEnter (Collider other){
-		if (other.gameObject.tag == "Object"){
-			targetObject = other.GetComponent<ObjectChat>();
-			actions = targetObject.actions;
-		}
-	}
 	public void drinkGoodCoffee() {
 		animator.SetTrigger ("coffeeGood");
 	}
@@ -109,43 +112,43 @@ public class PlayerMax : MonoBehaviour {
 	public void eatBadCereal() {
 		animator.SetTrigger ("cerealBad");
 	}
-	void ballCatBad() {
+	public void ballCatBad() {
 		animator.SetTrigger ("ballCatBad");
 	}
 
-	void ballCatGood() {
+	public void ballCatGood() {
 		animator.SetTrigger ("ballCatGood");
 	}
 
-	void petCatGood() {
+	public void petCatGood() {
 		animator.SetTrigger ("catGood");
 	}
 
-	void petCatBad() {
+	public void petCatBad() {
 		animator.SetTrigger ("catBad");
 	}
 
-	void lookAtWindowGood() {
+	public void lookAtWindowGood() {
 		animator.SetTrigger ("windowGood");
 	}
 
-	void lookAtWindowBad() {
+	public void lookAtWindowBad() {
 		animator.SetTrigger ("windowBad");
 	}
 
-	void smellGood() {
+	public void smellGood() {
 		animator.SetTrigger ("smellGood");
 	}
 
-	void smellBad() {
+	public void smellBad() {
 		animator.SetTrigger ("smellBad");
 	}
 
-	void doYogaGood() {
+	public void doYogaGood() {
 		animator.SetTrigger ("yogaGood");
 	}
 
-	void doYogaBad() {
+	public void doYogaBad() {
 		animator.SetTrigger ("yogaBad");
 	}
 }
