@@ -1,9 +1,15 @@
 fileFormatVersion: 2
 guid: 6a013ce14edcff046a939ed7fd097c9c
-timeCreated: 1454206888
+timeCreated: 1454197064
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: animation_ship_0
+    21300002: animation_ship_1
+    21300004: animation_ship_2
+    21300006: animation_ship_3
+    21300008: animation_ship_4
+    21300010: animation_ship_5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,26 +36,184 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: animation_ship_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 34}
+        - {x: -1, y: 34}
+        - {x: -18, y: 17}
+        - {x: -20, y: -11}
+        - {x: -31, y: -28}
+        - {x: -32, y: -30}
+        - {x: -32, y: -46}
+        - {x: -30, y: -48}
+        - {x: 32, y: -48}
+        - {x: 32, y: -10}
+        - {x: 24, y: 21}
+    - name: animation_ship_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -48}
+        - {x: 32, y: -48}
+        - {x: 32, y: -10}
+        - {x: 24, y: 21}
+        - {x: 1, y: 34}
+        - {x: -1, y: 34}
+        - {x: -18, y: 17}
+        - {x: -20, y: -11}
+        - {x: -32, y: -27}
+        - {x: -32, y: -48}
+        - {x: -29, y: -48}
+        - {x: -26, y: -47}
+        - {x: -23, y: -48}
+        - {x: 22, y: -48}
+        - {x: 24, y: -46}
+        - {x: 24, y: -45}
+        - {x: 26, y: -47}
+    - name: animation_ship_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 39}
+        - {x: -1, y: 39}
+        - {x: -18, y: 22}
+        - {x: -20, y: -6}
+        - {x: -32, y: -22}
+        - {x: -32, y: -43}
+        - {x: -31, y: -44}
+        - {x: -26, y: -42}
+        - {x: -20, y: -45}
+        - {x: 32, y: -45}
+        - {x: 32, y: -13}
+        - {x: 18, y: 22}
+    - name: animation_ship_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -9}
+        - {x: -32, y: -34}
+        - {x: -31, y: -34}
+        - {x: -24, y: -44}
+        - {x: 32, y: -44}
+        - {x: 32, y: 22}
+        - {x: 26, y: 37}
+        - {x: 3, y: 48}
+        - {x: -4, y: 48}
+        - {x: -18, y: 32}
+      - - {x: 29, y: -6}
+        - {x: 31, y: -8}
+        - {x: 32, y: -8}
+        - {x: 32, y: 8}
+        - {x: 29, y: 7}
+    - name: animation_ship_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -25}
+        - {x: -13, y: -30}
+        - {x: -13, y: -43}
+        - {x: 13, y: -43}
+        - {x: 15, y: -39}
+        - {x: 15, y: -32}
+        - {x: 12, y: -25}
+      - - {x: -20, y: 48}
+        - {x: -32, y: 14}
+        - {x: -32, y: -9}
+        - {x: 31, y: -9}
+        - {x: 31, y: 21}
+        - {x: 22, y: 48}
+    - name: animation_ship_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -35}
+        - {x: -3, y: -39}
+        - {x: 2, y: -39}
+        - {x: 7, y: -37}
+        - {x: 7, y: -32}
+        - {x: 6, y: -28}
+        - {x: 0, y: -28}
+        - {x: -5, y: -29}
+      - - {x: -30, y: 31}
+        - {x: -27, y: 32}
+        - {x: -22, y: 48}
+        - {x: -32, y: 48}
+        - {x: -32, y: 32}
+      - - {x: 22, y: 48}
+        - {x: 26, y: 32}
+        - {x: 29, y: 31}
+        - {x: 32, y: 31}
+        - {x: 32, y: 48}
+      - - {x: -20, y: 48}
+        - {x: -20, y: 44}
+        - {x: -10, y: 33}
+        - {x: 6, y: 33}
+        - {x: 20, y: 42}
+        - {x: 20, y: 48}
     outline: []
   spritePackingTag: 
   userData: 
