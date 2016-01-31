@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7c558f82d690e41439e9333a20a85ad2
-timeCreated: 1454197106
+timeCreated: 1454225158
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -20,6 +20,7 @@ TextureImporter:
     21300026: animation_smell_13
     21300028: animation_smell_14
     21300030: animation_smell_15
+    21300032: animation_smell_16
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -69,290 +70,323 @@ TextureImporter:
     - name: animation_smell_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 5
         y: 155
-        width: 66
+        width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 28, y: 77.5}
-        - {x: -19, y: 77.5}
-        - {x: -30, y: 46.5}
-        - {x: -30, y: -77.5}
-        - {x: 33, y: -77.5}
-        - {x: 33, y: 34.5}
-        - {x: 31, y: 76.5}
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
     - name: animation_smell_1
       rect:
         serializedVersion: 2
-        x: 66
+        x: 70
         y: 155
-        width: 66
+        width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -19, y: 77.5}
-        - {x: -31, y: 58.5}
-        - {x: -31, y: -57.5}
-        - {x: -29, y: -77.5}
-        - {x: 33, y: -77.5}
-        - {x: 33, y: 21.5}
-        - {x: 31, y: 77.5}
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
     - name: animation_smell_2
       rect:
         serializedVersion: 2
-        x: 132
+        x: 135
         y: 155
-        width: 66
+        width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32, y: -70.5}
-        - {x: -27, y: -77.5}
-        - {x: -23, y: -77.5}
-        - {x: 32, y: -66.5}
-        - {x: 32, y: 77.5}
-        - {x: -28, y: 77.5}
-        - {x: -32, y: 65.5}
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
     - name: animation_smell_3
       rect:
         serializedVersion: 2
-        x: 198
+        x: 200
         y: 155
-        width: 66
+        width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -28, y: -77.5}
-        - {x: -27, y: -77.5}
-        - {x: 30, y: 77.5}
-        - {x: -29, y: 77.5}
-        - {x: -33, y: 64.5}
-        - {x: -33, y: -70.5}
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
     - name: animation_smell_4
       rect:
         serializedVersion: 2
-        x: 264
+        x: 270
         y: 155
-        width: 66
+        width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -18, y: 77.5}
-        - {x: -29, y: 46.5}
-        - {x: -29, y: -77.5}
-        - {x: 33, y: -77.5}
-        - {x: 33, y: 49.5}
-        - {x: 25, y: 77.5}
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
     - name: animation_smell_5
       rect:
         serializedVersion: 2
-        x: 330
+        x: 335
         y: 155
-        width: 66
+        width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 28, y: 77.5}
-        - {x: -19, y: 77.5}
-        - {x: -30, y: 46.5}
-        - {x: -30, y: -77.5}
-        - {x: 33, y: -77.5}
-        - {x: 33, y: 34.5}
-        - {x: 31, y: 76.5}
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
     - name: animation_smell_6
       rect:
         serializedVersion: 2
-        x: 396
+        x: 400
         y: 155
-        width: 66
+        width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -19, y: 77.5}
-        - {x: -31, y: 58.5}
-        - {x: -31, y: -57.5}
-        - {x: -29, y: -77.5}
-        - {x: 33, y: -77.5}
-        - {x: 33, y: 21.5}
-        - {x: 31, y: 77.5}
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
     - name: animation_smell_7
       rect:
         serializedVersion: 2
-        x: 462
+        x: 470
         y: 155
-        width: 66
+        width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -15, y: 77.5}
-        - {x: -27, y: 74.5}
-        - {x: -27, y: -56.5}
-        - {x: -22, y: -77.5}
-        - {x: 33, y: -77.5}
-        - {x: 33, y: 77.5}
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
     - name: animation_smell_8
       rect:
         serializedVersion: 2
-        x: 528
+        x: 540
         y: 155
-        width: 66
+        width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -33, y: -77.5}
-        - {x: -29, y: -77.5}
-        - {x: -29, y: -67.5}
-        - {x: -31, y: -65.5}
-        - {x: -33, y: -65.5}
-      - - {x: -14, y: 77.5}
-        - {x: -23, y: 75.5}
-        - {x: -23, y: -56.5}
-        - {x: -18, y: -77.5}
-        - {x: 33, y: -77.5}
-        - {x: 33, y: 77.5}
-    - name: animation_smell_9
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 66
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 28, y: 77.5}
-        - {x: -19, y: 77.5}
-        - {x: -30, y: 46.5}
-        - {x: -30, y: -77.5}
-        - {x: 33, y: -77.5}
-        - {x: 33, y: 34.5}
-        - {x: 31, y: 76.5}
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
     - name: animation_smell_10
       rect:
         serializedVersion: 2
-        x: 66
+        x: 5
         y: 0
-        width: 66
+        width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -19, y: 77.5}
-        - {x: -31, y: 58.5}
-        - {x: -31, y: -57.5}
-        - {x: -29, y: -77.5}
-        - {x: 33, y: -77.5}
-        - {x: 33, y: 21.5}
-        - {x: 31, y: 77.5}
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
     - name: animation_smell_11
       rect:
         serializedVersion: 2
-        x: 132
+        x: 70
         y: 0
-        width: 66
+        width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32, y: -70.5}
-        - {x: -27, y: -77.5}
-        - {x: -23, y: -77.5}
-        - {x: 32, y: -66.5}
-        - {x: 32, y: 77.5}
-        - {x: -28, y: 77.5}
-        - {x: -32, y: 65.5}
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
     - name: animation_smell_12
       rect:
         serializedVersion: 2
-        x: 198
+        x: 135
         y: 0
-        width: 66
+        width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -28, y: -77.5}
-        - {x: -27, y: -77.5}
-        - {x: 30, y: 77.5}
-        - {x: -29, y: 77.5}
-        - {x: -33, y: 64.5}
-        - {x: -33, y: -70.5}
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
     - name: animation_smell_13
       rect:
         serializedVersion: 2
-        x: 264
+        x: 200
         y: 0
-        width: 66
+        width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -18, y: 77.5}
-        - {x: -29, y: 46.5}
-        - {x: -29, y: -77.5}
-        - {x: 33, y: -77.5}
-        - {x: 33, y: 49.5}
-        - {x: 25, y: 77.5}
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
     - name: animation_smell_14
       rect:
         serializedVersion: 2
-        x: 330
+        x: 270
         y: 0
-        width: 66
+        width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 28, y: 77.5}
-        - {x: -19, y: 77.5}
-        - {x: -30, y: 46.5}
-        - {x: -30, y: -77.5}
-        - {x: 33, y: -77.5}
-        - {x: 33, y: 34.5}
-        - {x: 31, y: 76.5}
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
     - name: animation_smell_15
       rect:
         serializedVersion: 2
-        x: 396
+        x: 335
         y: 0
-        width: 66
+        width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -19, y: 77.5}
-        - {x: -31, y: 58.5}
-        - {x: -31, y: -57.5}
-        - {x: -29, y: -77.5}
-        - {x: 33, y: -77.5}
-        - {x: 33, y: 21.5}
-        - {x: 31, y: 77.5}
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_smell_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
     outline: []
   spritePackingTag: 
   userData: 

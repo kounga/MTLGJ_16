@@ -80,4 +80,44 @@ public class Player : MonoBehaviour {
 	void eatBadCereal() {
 		animator.SetTrigger ("cerealBad");
 	}
+	//######################################################
+	void ballCatBad() {
+		animator.SetTrigger ("ballCatBad");
+	}
+
+	void ballCatGood() {
+		animator.SetTrigger ("ballCatGood");
+	}
+
+	void petCatGood() {
+		animator.SetTrigger ("catGood");
+	}
+
+	void petCatBad() {
+		animator.SetTrigger ("catBad");
+	}
+
+	void lookAtWindowGood() {
+		animator.SetTrigger ("windowGood");
+	}
+
+	void lookAtWindowBad() {
+		animator.SetTrigger ("windowBad");
+	}
+
+	void smellGood() {
+		animator.SetTrigger ("smellGood");
+	}
+
+	void smellBad() {
+		animator.SetTrigger ("smellBad");
+	}
+
+	void doYogaGood() {
+		animator.SetTrigger ("yogaGood");
+	}
+
+	void doYogaBad() {
+		animator.SetTrigger ("yogaBad");
+	}
 }

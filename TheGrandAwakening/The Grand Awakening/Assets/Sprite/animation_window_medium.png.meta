@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 52c47a0db2a35814f8328bf29c9c4c34
-timeCreated: 1454197130
+timeCreated: 1454225367
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -71,185 +71,86 @@ TextureImporter:
     - name: animation_window_medium_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 5
         y: 155
         width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -18.5, y: 77.5}
-        - {x: -29.5, y: 46.5}
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
         - {x: -29.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 49.5}
-        - {x: 24.5, y: 77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
     - name: animation_window_medium_1
       rect:
         serializedVersion: 2
-        x: 65
+        x: 70
         y: 155
         width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16.5, y: 77.5}
-        - {x: -24.5, y: 74.5}
-        - {x: -24.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: -40.5}
-        - {x: 25.5, y: 77.5}
+      - - {x: -29.5, y: 77.5}
+        - {x: -29.5, y: -77.5}
+        - {x: 29.5, y: -77.5}
+        - {x: 29.5, y: 11.5}
+        - {x: 22.5, y: 77.5}
     - name: animation_window_medium_2
       rect:
         serializedVersion: 2
-        x: 130
+        x: 135
         y: 155
         width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -23.5, y: 77.5}
-        - {x: -24.5, y: 75.5}
-        - {x: -24.5, y: -11.5}
-        - {x: -20.5, y: -33.5}
-        - {x: -8.5, y: -77.5}
-        - {x: 24.5, y: -77.5}
-        - {x: 24.5, y: 76.5}
-        - {x: 20.5, y: 77.5}
+      - - {x: -29.5, y: 77.5}
+        - {x: -29.5, y: -11.5}
+        - {x: -25.5, y: -33.5}
+        - {x: -13.5, y: -77.5}
+        - {x: 19.5, y: -77.5}
+        - {x: 19.5, y: 68.5}
+        - {x: 18.5, y: 77.5}
     - name: animation_window_medium_3
       rect:
         serializedVersion: 2
-        x: 195
+        x: 200
         y: 155
         width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -29.5, y: 77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: 29.5, y: -77.5}
-        - {x: 29.5, y: 11.5}
-        - {x: 22.5, y: 77.5}
+      - - {x: -28.5, y: 77.5}
+        - {x: -32.5, y: 76.5}
+        - {x: -32.5, y: -34.5}
+        - {x: -22.5, y: -34.5}
+        - {x: -20.5, y: -32.5}
+        - {x: -32.5, y: -61.5}
+        - {x: -32.5, y: -77.5}
+        - {x: 24.5, y: -77.5}
+        - {x: 24.5, y: 77.5}
     - name: animation_window_medium_4
       rect:
         serializedVersion: 2
-        x: 260
+        x: 265
         y: 155
         width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 24.5, y: 77.5}
-        - {x: -19.5, y: 77.5}
-        - {x: -19.5, y: -49.5}
-        - {x: -9.5, y: -77.5}
-        - {x: 29.5, y: -77.5}
-        - {x: 29.5, y: 28.5}
-        - {x: 28.5, y: 74.5}
-    - name: animation_window_medium_5
-      rect:
-        serializedVersion: 2
-        x: 325
-        y: 155
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -29.5, y: 77.5}
-        - {x: -29.5, y: -77.5}
-        - {x: 29.5, y: -77.5}
-        - {x: 29.5, y: 11.5}
-        - {x: 22.5, y: 77.5}
-    - name: animation_window_medium_6
-      rect:
-        serializedVersion: 2
-        x: 390
-        y: 155
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -29.5, y: -77.5}
-        - {x: 29.5, y: -77.5}
-        - {x: 29.5, y: 76.5}
-        - {x: 28.5, y: 77.5}
-        - {x: -23.5, y: 77.5}
-        - {x: -29.5, y: 73.5}
-    - name: animation_window_medium_7
-      rect:
-        serializedVersion: 2
-        x: 520
-        y: 155
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12.5, y: -24.5}
-        - {x: -14.5, y: -24.5}
-        - {x: -16.5, y: -27.5}
-        - {x: -16.5, y: -30.5}
-        - {x: -14.5, y: -31.5}
-        - {x: -12.5, y: -31.5}
-        - {x: -10.5, y: -28.5}
-        - {x: -10.5, y: -25.5}
-    - name: animation_window_medium_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -18.5, y: 77.5}
-        - {x: -29.5, y: 46.5}
-        - {x: -29.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 49.5}
-        - {x: 24.5, y: 77.5}
-    - name: animation_window_medium_9
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 0
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16.5, y: 77.5}
-        - {x: -24.5, y: 74.5}
-        - {x: -24.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: -40.5}
-        - {x: 25.5, y: 77.5}
-    - name: animation_window_medium_10
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 0
-        width: 65
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -23.5, y: 77.5}
@@ -260,10 +161,66 @@ TextureImporter:
         - {x: 24.5, y: -77.5}
         - {x: 24.5, y: 76.5}
         - {x: 20.5, y: 77.5}
-    - name: animation_window_medium_11
+    - name: animation_window_medium_5
       rect:
         serializedVersion: 2
-        x: 195
+        x: 330
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 77.5}
+        - {x: -32.5, y: 76.5}
+        - {x: -32.5, y: -34.5}
+        - {x: -22.5, y: -34.5}
+        - {x: -20.5, y: -32.5}
+        - {x: -32.5, y: -61.5}
+        - {x: -32.5, y: -77.5}
+        - {x: 24.5, y: -77.5}
+        - {x: 24.5, y: 77.5}
+    - name: animation_window_medium_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 77.5}
+        - {x: -32.5, y: 65.5}
+        - {x: -32.5, y: -77.5}
+        - {x: 24.5, y: -77.5}
+        - {x: 24.5, y: 77.5}
+    - name: animation_window_medium_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_window_medium_9
+      rect:
+        serializedVersion: 2
+        x: 70
         y: 0
         width: 65
         height: 155
@@ -276,10 +233,48 @@ TextureImporter:
         - {x: 29.5, y: -77.5}
         - {x: 29.5, y: 11.5}
         - {x: 22.5, y: 77.5}
+    - name: animation_window_medium_10
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 77.5}
+        - {x: -29.5, y: -11.5}
+        - {x: -25.5, y: -33.5}
+        - {x: -13.5, y: -77.5}
+        - {x: 19.5, y: -77.5}
+        - {x: 19.5, y: 68.5}
+        - {x: 18.5, y: 77.5}
+    - name: animation_window_medium_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 77.5}
+        - {x: -32.5, y: 76.5}
+        - {x: -32.5, y: -34.5}
+        - {x: -22.5, y: -34.5}
+        - {x: -20.5, y: -32.5}
+        - {x: -32.5, y: -61.5}
+        - {x: -32.5, y: -77.5}
+        - {x: 24.5, y: -77.5}
+        - {x: 24.5, y: 77.5}
     - name: animation_window_medium_12
       rect:
         serializedVersion: 2
-        x: 260
+        x: 265
         y: 0
         width: 65
         height: 155
@@ -287,28 +282,21 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -29.5, y: 23.5}
-        - {x: -25.5, y: -41.5}
-        - {x: -12.5, y: -34.5}
-        - {x: -10.5, y: -32.5}
-        - {x: -25.5, y: -66.5}
-        - {x: -24.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: -4.5}
-        - {x: 30.5, y: 77.5}
-        - {x: -25.5, y: 77.5}
-        - {x: -29.5, y: 74.5}
-      - - {x: -28.5, y: 44.5}
-        - {x: -29.5, y: 42.5}
-        - {x: -29.5, y: 34.5}
-        - {x: -25.5, y: 30.5}
-        - {x: -15.5, y: 30.5}
-        - {x: -15.5, y: 39.5}
-        - {x: -22.5, y: 44.5}
+      - - {x: -32.5, y: -68.5}
+        - {x: -29.5, y: -77.5}
+        - {x: 29.5, y: -77.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -32.5, y: 77.5}
+      - - {x: -32.5, y: 44.5}
+        - {x: -32.5, y: 32.5}
+        - {x: -27.5, y: 30.5}
+        - {x: -20.5, y: 30.5}
+        - {x: -20.5, y: 40.5}
+        - {x: -25.5, y: 44.5}
     - name: animation_window_medium_13
       rect:
         serializedVersion: 2
-        x: 325
+        x: 330
         y: 0
         width: 65
         height: 155
@@ -316,20 +304,20 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -19.5, y: 77.5}
-        - {x: -24.5, y: 75.5}
-        - {x: -24.5, y: -40.5}
-        - {x: -12.5, y: -34.5}
-        - {x: -10.5, y: -32.5}
-        - {x: -24.5, y: -64.5}
-        - {x: -24.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: -52.5}
-        - {x: 25.5, y: 77.5}
+      - - {x: -21.5, y: 77.5}
+        - {x: -25.5, y: 68.5}
+        - {x: -29.5, y: 13.5}
+        - {x: -29.5, y: -34.5}
+        - {x: -17.5, y: -34.5}
+        - {x: -15.5, y: -32.5}
+        - {x: -29.5, y: -64.5}
+        - {x: -29.5, y: -77.5}
+        - {x: 29.5, y: -77.5}
+        - {x: 29.5, y: 77.5}
     - name: animation_window_medium_14
       rect:
         serializedVersion: 2
-        x: 390
+        x: 395
         y: 0
         width: 65
         height: 155
@@ -337,16 +325,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16.5, y: 77.5}
-        - {x: -24.5, y: 74.5}
-        - {x: -24.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: -40.5}
-        - {x: 25.5, y: 77.5}
+      - - {x: -23.5, y: 77.5}
+        - {x: -29.5, y: 75.5}
+        - {x: -29.5, y: -77.5}
+        - {x: 29.5, y: -77.5}
+        - {x: 29.5, y: 77.5}
     - name: animation_window_medium_15
       rect:
         serializedVersion: 2
-        x: 455
+        x: 460
         y: 0
         width: 65
         height: 155
@@ -354,15 +341,17 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -19.5, y: 77.5}
-        - {x: -19.5, y: -49.5}
-        - {x: -9.5, y: -77.5}
-        - {x: 29.5, y: -77.5}
-        - {x: 29.5, y: 77.5}
+      - - {x: -22.5, y: 77.5}
+        - {x: -24.5, y: 72.5}
+        - {x: -24.5, y: -11.5}
+        - {x: -20.5, y: -33.5}
+        - {x: -8.5, y: -77.5}
+        - {x: 24.5, y: -77.5}
+        - {x: 24.5, y: 77.5}
     - name: animation_window_medium_16
       rect:
         serializedVersion: 2
-        x: 520
+        x: 525
         y: 0
         width: 65
         height: 155
@@ -370,29 +359,28 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 29.5, y: 77.5}
-        - {x: -24.5, y: 77.5}
-        - {x: -24.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 64.5}
-        - {x: 31.5, y: 75.5}
+      - - {x: -29.5, y: 77.5}
+        - {x: -29.5, y: -77.5}
+        - {x: 29.5, y: -77.5}
+        - {x: 29.5, y: 36.5}
+        - {x: 23.5, y: 77.5}
     - name: animation_window_medium_17
       rect:
         serializedVersion: 2
-        x: 585
+        x: 590
         y: 0
         width: 65
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -19.5, y: 77.5}
-        - {x: -24.5, y: 76.5}
-        - {x: -24.5, y: -77.5}
-        - {x: 32.5, y: -77.5}
-        - {x: 32.5, y: 41.5}
-        - {x: 24.5, y: 77.5}
+      - - {x: -21.5, y: 77.5}
+        - {x: -29.5, y: 61.5}
+        - {x: -29.5, y: -77.5}
+        - {x: 29.5, y: -77.5}
+        - {x: 29.5, y: 24.5}
+        - {x: 20.5, y: 77.5}
     outline: []
   spritePackingTag: 
   userData: 
