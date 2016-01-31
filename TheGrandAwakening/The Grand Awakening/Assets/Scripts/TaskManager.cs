@@ -32,15 +32,40 @@ public class TaskManager : MonoBehaviour {
 			
 			if(player.currentAction == currentTask)
 			{
-				Debug.Log("GoodJob");
-				player.anim.Play(currentTask+"Good");
+				switch(currentTask) 
+				{
+					case "Drink capucino":
+					case "Drink coffee":
+						player.drinkGoodCoffee();
+						break;
+					case "Eat cereal":
+						player.eatGoodCereal();
+						break;
+					case "Eat Toast":
+						player.eatGoodToast();
+						break;
+				}
 				Object.Destroy(currentPictogram);
 				currentTaskId++;
 				addNewAction();
 				
 			}
-			else
-				player.anim.Play(player.currentAction+"Bad");
+			else{
+				switch(player.currentAction) 
+				{
+					case "Drink capucino":
+					case "Drink coffee":
+						player.drinkBadCoffee();
+						break;
+					case "Eat cereal":
+						player.eatBadCereal();
+						break;
+					case "Eat Toast":
+					case "Eat Bagel":
+						player.eatBadToast();
+						break;
+				}
+			}
 			player.currentAction = null;
 		}
 	}
