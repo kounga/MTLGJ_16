@@ -1,0 +1,68 @@
+Initialize engine version: 5.3.2f1 (e87ab445ead0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: Intel(R) HD Graphics (ID=0x46)
+    Vendor:   Intel
+    VRAM:     880 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build2_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build2_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.134 seconds
+Platform assembly: C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build2_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build2_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\i3Kounga\Documents\MTLGJ_16\TheGrandAwakening\The Grand Awakening\build2_Data\Managed\Boo.Lang.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 3286x1308 at 0,-540
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.055263 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 13ac -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.761178 ms
+The AnimationClip 'drinkCoffeeBad' used by the Animation component 'Player' must be marked as Legacy.
+ 
+(Filename:  Line: 1971)
+
+The AnimationClip 'drinkCoffeeGood' used by the Animation component 'Player' must be marked as Legacy.
+ 
+(Filename:  Line: 1971)
+
+The AnimationClip 'eatCerealBad' used by the Animation component 'Player' must be marked as Legacy.
+ 
+(Filename:  Line: 1971)
+
+The AnimationClip 'eatCerealGood' used by the Animation component 'Player' must be marked as Legacy.
+ 
+(Filename:  Line: 1971)
+
+The AnimationClip 'eatToastBad' used by the Animation component 'Player' must be marked as Legacy.
+ 
+(Filename:  Line: 1971)
+
+The AnimationClip 'eatToastGood' used by the Animation component 'Player' must be marked as Legacy.
+ 
+(Filename:  Line: 1971)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 401)
+
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 876.
+Total: 1.843944 ms (FindLiveObjects: 0.106825 ms CreateObjectMapping: 0.052931 ms MarkObjects: 0.236748 ms  DeleteObjects: 1.446476 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerMax.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+

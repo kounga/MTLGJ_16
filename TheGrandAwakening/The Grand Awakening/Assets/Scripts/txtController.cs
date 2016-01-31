@@ -24,7 +24,7 @@ public class txtController : MonoBehaviour {
 	void OnMouseDown() {
 
 		if( gameObject.tag == "start" )			
-			SceneManager.LoadScene ("MAIN"); //application.loadScene is obsolete
+			SceneManager.LoadScene ("main-max"); //application.loadScene is obsolete
 		
 		if( gameObject.tag == "quit" )
 			Application.Quit();

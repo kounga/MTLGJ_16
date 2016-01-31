@@ -5,6 +5,6 @@ using UnityEngine.SceneManagement;
 public class restartButton : MonoBehaviour {
 
 	public void ClickExit(){
-		SceneManager.LoadScene ("KEVIN");
+		SceneManager.LoadScene ("main-max");
 	}
 }
