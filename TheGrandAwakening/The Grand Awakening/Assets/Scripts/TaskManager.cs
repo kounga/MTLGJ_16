@@ -67,6 +67,7 @@ public class TaskManager : MonoBehaviour {
 						GameObject.FindGameObjectWithTag("closet").GetComponent<Animator>().SetTrigger("OpenGood");
 						break;
 				}
+				GameObject.FindGameObjectWithTag("Score").GetComponent<GamePoints>().addPoints(20);
 				Object.Destroy(currentPictogram);
 				currentTaskId++;
 				addNewAction();
