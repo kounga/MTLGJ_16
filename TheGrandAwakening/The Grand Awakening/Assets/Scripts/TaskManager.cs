@@ -26,7 +26,7 @@ public class TaskManager : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-		Debug.Log(player.currentAction +" "+ currentTask);
+//		Debug.Log(player.currentAction +" "+ currentTask);
 		if(player.currentAction != null)
 		{
 			
