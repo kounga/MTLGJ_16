@@ -14,7 +14,8 @@ public class TabActions : MonoBehaviour {
 		if(actions.Length != 0)
 		{
 			for (int i=0; i<actions.Length; i++) {
-				Vector3 posText= new Vector3(transform.position.x+1,transform.position.y+1+(0.08f*i),transform.position.z);
+				GameObject pickto = GameObject.FindGameObjectWithTag("Picktogram");
+				Vector3 posText = new Vector3(pickto.transform.position.x,pickto.transform.position.y-0.2f-(0.08f*i),pickto.transform.position.z);
 				GameObject pom = (Instantiate(newText,posText,transform.rotation)as GameObject);
 				pom.transform.parent = transform;
 				TextMesh text = newText.transform.GetChild(0).GetComponent<TextMesh>();
@@ -45,7 +46,7 @@ public class TabActions : MonoBehaviour {
 
 
 		}
-		if (Input.GetButton("Use") && !player.spaceIsDown) {
+		if(Input.GetButton("Use") && !player.spaceIsDown) {
 			player.currentAction = textTab[selectedTab].GetComponent<TextMesh>().text;
 			Object.Destroy(this.gameObject);
 		}

@@ -1,9 +1,34 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: a0de7e0c4c5b30a42b2df37f0a04435c
 timeCreated: 1454212856
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
+=======
+guid: 7c558f82d690e41439e9333a20a85ad2
+timeCreated: 1454225158
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: animation_smell_0
+    21300002: animation_smell_1
+    21300004: animation_smell_2
+    21300006: animation_smell_3
+    21300008: animation_smell_4
+    21300010: animation_smell_5
+    21300012: animation_smell_6
+    21300014: animation_smell_7
+    21300016: animation_smell_8
+    21300018: animation_smell_9
+    21300020: animation_smell_10
+    21300022: animation_smell_11
+    21300024: animation_smell_12
+    21300026: animation_smell_13
+    21300028: animation_smell_14
+    21300030: animation_smell_15
+    21300032: animation_smell_16
+>>>>>>> ff7c395cf9f3051121b0409c2873f24af7444519
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,26 +55,365 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
+<<<<<<< HEAD
     aniso: -1
     mipBias: -1
     wrapMode: -1
   nPOTScale: 1
+=======
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+>>>>>>> ff7c395cf9f3051121b0409c2873f24af7444519
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
+<<<<<<< HEAD
   spriteMode: 0
+=======
+  spriteMode: 2
+>>>>>>> ff7c395cf9f3051121b0409c2873f24af7444519
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+<<<<<<< HEAD
   alphaIsTransparency: 0
   textureType: -1
   buildTargetSettings: []
   spriteSheet:
     sprites: []
+=======
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: animation_smell_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_smell_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_smell_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_smell_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_smell_4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_smell_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_smell_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_smell_7
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_smell_8
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_smell_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_smell_11
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_smell_12
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_smell_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_smell_14
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_smell_15
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_smell_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+>>>>>>> ff7c395cf9f3051121b0409c2873f24af7444519
     outline: []
   spritePackingTag: 
   userData: 

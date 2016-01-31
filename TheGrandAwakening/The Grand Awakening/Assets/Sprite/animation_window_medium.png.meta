@@ -1,9 +1,27 @@
 fileFormatVersion: 2
 guid: 52c47a0db2a35814f8328bf29c9c4c34
-timeCreated: 1454206888
+timeCreated: 1454225367
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: animation_window_medium_0
+    21300002: animation_window_medium_1
+    21300004: animation_window_medium_2
+    21300006: animation_window_medium_3
+    21300008: animation_window_medium_4
+    21300010: animation_window_medium_5
+    21300012: animation_window_medium_6
+    21300014: animation_window_medium_7
+    21300016: animation_window_medium_8
+    21300018: animation_window_medium_9
+    21300020: animation_window_medium_10
+    21300022: animation_window_medium_11
+    21300024: animation_window_medium_12
+    21300026: animation_window_medium_13
+    21300028: animation_window_medium_14
+    21300030: animation_window_medium_15
+    21300032: animation_window_medium_16
+    21300034: animation_window_medium_17
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,26 +48,339 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: animation_window_medium_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_window_medium_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 77.5}
+        - {x: -29.5, y: -77.5}
+        - {x: 29.5, y: -77.5}
+        - {x: 29.5, y: 11.5}
+        - {x: 22.5, y: 77.5}
+    - name: animation_window_medium_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 77.5}
+        - {x: -29.5, y: -11.5}
+        - {x: -25.5, y: -33.5}
+        - {x: -13.5, y: -77.5}
+        - {x: 19.5, y: -77.5}
+        - {x: 19.5, y: 68.5}
+        - {x: 18.5, y: 77.5}
+    - name: animation_window_medium_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 77.5}
+        - {x: -32.5, y: 76.5}
+        - {x: -32.5, y: -34.5}
+        - {x: -22.5, y: -34.5}
+        - {x: -20.5, y: -32.5}
+        - {x: -32.5, y: -61.5}
+        - {x: -32.5, y: -77.5}
+        - {x: 24.5, y: -77.5}
+        - {x: 24.5, y: 77.5}
+    - name: animation_window_medium_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 77.5}
+        - {x: -24.5, y: 75.5}
+        - {x: -24.5, y: -11.5}
+        - {x: -20.5, y: -33.5}
+        - {x: -8.5, y: -77.5}
+        - {x: 24.5, y: -77.5}
+        - {x: 24.5, y: 76.5}
+        - {x: 20.5, y: 77.5}
+    - name: animation_window_medium_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 77.5}
+        - {x: -32.5, y: 76.5}
+        - {x: -32.5, y: -34.5}
+        - {x: -22.5, y: -34.5}
+        - {x: -20.5, y: -32.5}
+        - {x: -32.5, y: -61.5}
+        - {x: -32.5, y: -77.5}
+        - {x: 24.5, y: -77.5}
+        - {x: 24.5, y: 77.5}
+    - name: animation_window_medium_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 155
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 77.5}
+        - {x: -32.5, y: 65.5}
+        - {x: -32.5, y: -77.5}
+        - {x: 24.5, y: -77.5}
+        - {x: 24.5, y: 77.5}
+    - name: animation_window_medium_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -34.5}
+        - {x: -18.5, y: -35.5}
+        - {x: -30.5, y: -66.5}
+        - {x: -29.5, y: -77.5}
+        - {x: -25.5, y: -77.5}
+        - {x: 29.5, y: -66.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -29.5, y: 77.5}
+        - {x: -32.5, y: 70.5}
+    - name: animation_window_medium_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 77.5}
+        - {x: -29.5, y: -77.5}
+        - {x: 29.5, y: -77.5}
+        - {x: 29.5, y: 11.5}
+        - {x: 22.5, y: 77.5}
+    - name: animation_window_medium_10
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 77.5}
+        - {x: -29.5, y: -11.5}
+        - {x: -25.5, y: -33.5}
+        - {x: -13.5, y: -77.5}
+        - {x: 19.5, y: -77.5}
+        - {x: 19.5, y: 68.5}
+        - {x: 18.5, y: 77.5}
+    - name: animation_window_medium_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 77.5}
+        - {x: -32.5, y: 76.5}
+        - {x: -32.5, y: -34.5}
+        - {x: -22.5, y: -34.5}
+        - {x: -20.5, y: -32.5}
+        - {x: -32.5, y: -61.5}
+        - {x: -32.5, y: -77.5}
+        - {x: 24.5, y: -77.5}
+        - {x: 24.5, y: 77.5}
+    - name: animation_window_medium_12
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -68.5}
+        - {x: -29.5, y: -77.5}
+        - {x: 29.5, y: -77.5}
+        - {x: 29.5, y: 77.5}
+        - {x: -32.5, y: 77.5}
+      - - {x: -32.5, y: 44.5}
+        - {x: -32.5, y: 32.5}
+        - {x: -27.5, y: 30.5}
+        - {x: -20.5, y: 30.5}
+        - {x: -20.5, y: 40.5}
+        - {x: -25.5, y: 44.5}
+    - name: animation_window_medium_13
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 77.5}
+        - {x: -25.5, y: 68.5}
+        - {x: -29.5, y: 13.5}
+        - {x: -29.5, y: -34.5}
+        - {x: -17.5, y: -34.5}
+        - {x: -15.5, y: -32.5}
+        - {x: -29.5, y: -64.5}
+        - {x: -29.5, y: -77.5}
+        - {x: 29.5, y: -77.5}
+        - {x: 29.5, y: 77.5}
+    - name: animation_window_medium_14
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 77.5}
+        - {x: -29.5, y: 75.5}
+        - {x: -29.5, y: -77.5}
+        - {x: 29.5, y: -77.5}
+        - {x: 29.5, y: 77.5}
+    - name: animation_window_medium_15
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 77.5}
+        - {x: -24.5, y: 72.5}
+        - {x: -24.5, y: -11.5}
+        - {x: -20.5, y: -33.5}
+        - {x: -8.5, y: -77.5}
+        - {x: 24.5, y: -77.5}
+        - {x: 24.5, y: 77.5}
+    - name: animation_window_medium_16
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 77.5}
+        - {x: -29.5, y: -77.5}
+        - {x: 29.5, y: -77.5}
+        - {x: 29.5, y: 36.5}
+        - {x: 23.5, y: 77.5}
+    - name: animation_window_medium_17
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 0
+        width: 65
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 77.5}
+        - {x: -29.5, y: 61.5}
+        - {x: -29.5, y: -77.5}
+        - {x: 29.5, y: -77.5}
+        - {x: 29.5, y: 24.5}
+        - {x: 20.5, y: 77.5}
     outline: []
   spritePackingTag: 
   userData: 
