@@ -41,7 +41,7 @@ public class Timer : MonoBehaviour {
 	
 	}
 
-	//Display the time on the GUI
+	//Display the score on the GUI
 	void OnGUI () {
 		GUI.skin.font = guiFont;
 		guiStyle.fontSize = 20;
