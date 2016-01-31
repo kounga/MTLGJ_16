@@ -70,6 +70,9 @@ public class TaskManager : MonoBehaviour {
 					case "Open closet":
 						GameObject.FindGameObjectWithTag("closet").GetComponent<Animator>().SetTrigger("OpenGood");
 						break;
+					case "Go on facebook":
+						player.laptopGood();
+						break;
 				}
 				audioGood.Play();
 				GameObject.FindGameObjectWithTag("Score").GetComponent<GamePoints>().addPoints(20);
@@ -114,6 +117,10 @@ public class TaskManager : MonoBehaviour {
 					case "Open closet":
 						GameObject.FindGameObjectWithTag("closet").GetComponent<Animator>().SetTrigger("OpenGood");
 						break;
+					case "Go on facebook":
+						player.laptopBad();
+						GameObject.FindGameObjectWithTag("laptop").GetComponent<Animator>().SetTrigger("laptopBad");
+						break;
 				}
 				audioBad.Play();
 			}
@@ -130,7 +137,7 @@ public class TaskManager : MonoBehaviour {
 		currentTask = tasksArray[currentTaskId];
 		currentPictogram = (Instantiate(spritePictogram)as GameObject);
 		currentPictogram.GetComponent<SpriteRenderer>().sprite = spriteArray[currentTaskId];
-		currentPictogram.transform.position = new Vector3(mainCameraCanvas.transform.position.x,mainCameraCanvas.transform.position.y+0.1f,mainCameraCanvas.transform.position.z+0.8f);
+		currentPictogram.transform.position = new Vector3(mainCameraCanvas.transform.position.x,mainCameraCanvas.transform.position.y+1f,mainCameraCanvas.transform.position.z+0.8f);
 		currentPictogram.transform.parent = mainCameraCanvas.transform;
 
 	}
