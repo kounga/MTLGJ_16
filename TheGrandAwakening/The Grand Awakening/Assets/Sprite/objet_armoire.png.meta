@@ -1,12 +1,9 @@
 fileFormatVersion: 2
-guid: 8760cff569d3d5540aabd354b83fa029
-timeCreated: 1454243079
+guid: 8f4b74d0f5eaa374db65bb6ccee342ca
+timeCreated: 1454264771
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: objet_armoire_0
-    21300002: objet_armoire_1
-    21300004: objet_armoire_2
+  fileIDToRecycleName: {}
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -33,79 +30,26 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: 16
+    aniso: -1
     mipBias: -1
-    wrapMode: 1
-  nPOTScale: 0
+    wrapMode: -1
+  nPOTScale: 1
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 2
+  spriteMode: 0
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 1
-  textureType: 8
+  alphaIsTransparency: 0
+  textureType: -1
   buildTargetSettings: []
   spriteSheet:
-    sprites:
-    - name: objet_armoire_0
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 4
-        width: 43
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15.5, y: 37}
-        - {x: -21.5, y: 33}
-        - {x: -21.5, y: -37}
-        - {x: 21.5, y: -37}
-        - {x: 21.5, y: 36}
-        - {x: 14.5, y: 37}
-    - name: objet_armoire_1
-      rect:
-        serializedVersion: 2
-        x: 78
-        y: 4
-        width: 54
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -20, y: 37}
-        - {x: -27, y: 35}
-        - {x: -27, y: -36}
-        - {x: -26, y: -37}
-        - {x: 27, y: -37}
-        - {x: 27, y: 36}
-        - {x: 18, y: 37}
-    - name: objet_armoire_2
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 4
-        width: 54
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -20, y: 37}
-        - {x: -27, y: 35}
-        - {x: -27, y: -36}
-        - {x: -26, y: -37}
-        - {x: 27, y: -37}
-        - {x: 27, y: 36}
-        - {x: 18, y: 37}
+    sprites: []
     outline: []
   spritePackingTag: 
   userData: 
