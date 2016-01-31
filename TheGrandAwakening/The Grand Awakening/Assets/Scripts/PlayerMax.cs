@@ -13,7 +13,6 @@ public class PlayerMax : MonoBehaviour {
 	public bool spaceIsDown;
 	private float playerSpeed = 0.07f;
 	public Animator animator;
-	public Animation anim;
 	public Camera mainCamera;
 	// Use this for initialization
 	void Start () {
@@ -84,6 +83,31 @@ public class PlayerMax : MonoBehaviour {
 			targetObject = other.GetComponent<ObjectChat>();
 			actions = targetObject.actions;
 		}
+	}
+	public void drinkGoodCoffee() {
+		animator.SetTrigger ("coffeeGood");
+	}
+
+	public void drinkBadCoffee() {
+		Debug.Log("fff");
+		animator.SetTrigger ("coffeeBad");
+	}
+
+	public void eatGoodToast() {
+		animator.SetTrigger ("toastGood");
+	}
+
+	public void eatBadToast() {
+		Debug.Log("fffsss");
+		animator.SetTrigger ("toastBad");
+	}
+
+	public void eatGoodCereal() {
+		animator.SetTrigger ("cerealGood");
+	}
+
+	public void eatBadCereal() {
+		animator.SetTrigger ("cerealBad");
 	}
 
 }
