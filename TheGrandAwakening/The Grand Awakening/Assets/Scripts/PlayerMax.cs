@@ -151,4 +151,10 @@ public class PlayerMax : MonoBehaviour {
 	public void doYogaBad() {
 		animator.SetTrigger ("yogaBad");
 	}
+	public void laptopGood() {
+		animator.SetTrigger ("laptopGood");
+	}
+	public void laptopBad() {
+		animator.SetTrigger ("laptopBad");
+	}
 }
