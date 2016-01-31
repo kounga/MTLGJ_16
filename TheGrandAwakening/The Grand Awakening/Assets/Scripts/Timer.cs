@@ -32,8 +32,8 @@ public class Timer : MonoBehaviour {
 		timer -= Time.deltaTime;
 
 		if ( (timer <= 0) && (!timeUPs) ) {
+			Debug.Log (getSeconds ());
 			timeUPs = true;
-
 			gameOverAnim.SetBool ("fadeIn",true);
 			typer.StartCoroutine ("TypeIn"); 
 
@@ -57,7 +57,7 @@ public class Timer : MonoBehaviour {
 	}
 
 	public int getSeconds(){
-		return (int)timeLeft;
+		return (int)timer;
 	}
 
 }
