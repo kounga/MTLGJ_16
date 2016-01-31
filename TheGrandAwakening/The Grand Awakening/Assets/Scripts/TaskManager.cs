@@ -18,6 +18,10 @@ public class TaskManager : MonoBehaviour {
 	private string[] tasksArray;
 	[SerializeField]
 	private Sprite[] spriteArray;
+	[SerializeField]
+	private AudioSource audioGood;
+	[SerializeField]
+	private AudioSource audioBad;
 	// Use this for initialization
 	void Start () {
 		
@@ -67,6 +71,8 @@ public class TaskManager : MonoBehaviour {
 						GameObject.FindGameObjectWithTag("closet").GetComponent<Animator>().SetTrigger("OpenGood");
 						break;
 				}
+				audioGood.Play();
+				GameObject.FindGameObjectWithTag("Score").GetComponent<GamePoints>().addPoints(20);
 				Object.Destroy(currentPictogram);
 				currentTaskId++;
 				addNewAction();
@@ -109,6 +115,7 @@ public class TaskManager : MonoBehaviour {
 						GameObject.FindGameObjectWithTag("closet").GetComponent<Animator>().SetTrigger("OpenGood");
 						break;
 				}
+				audioBad.Play();
 			}
 			player.currentAction = null;
 		}

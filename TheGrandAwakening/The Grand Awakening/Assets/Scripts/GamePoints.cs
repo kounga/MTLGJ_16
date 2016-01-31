@@ -11,7 +11,7 @@ public class GamePoints : MonoBehaviour {
 	private Animator gameOverAnim;
 
 
-	void addPoints(int points) {
+	public void addPoints(int points) {
 		totalPoints += points;
 	}
 	public float getPoints() {
