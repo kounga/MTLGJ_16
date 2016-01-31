@@ -14,6 +14,7 @@ public class PlayerMax : MonoBehaviour {
 	private float playerSpeed = 0.07f;
 	public Animator animator;
 	public Animation anim;
+	public Camera mainCamera;
 	// Use this for initialization
 	void Start () {
 		animator = gameObject.GetComponent<Animator>();
@@ -26,7 +27,8 @@ public class PlayerMax : MonoBehaviour {
 				if ((targetObject.buttonAction.activeSelf && Input.GetButtonDown("Use")) && !spaceIsDown)
 				{
 					spaceIsDown = true;
-					Instantiate(tabActionPrefab,transform.position,transform.rotation);
+					GameObject tab = (Instantiate(tabActionPrefab,transform.position,transform.rotation)as GameObject);
+					tab.transform.parent = mainCamera.transform;
 					tabsGestion = GameObject.FindGameObjectWithTag("Tabs").GetComponent<TabActions>();
 					tabsGestion.actions = actions;
 				}
@@ -47,7 +49,7 @@ public class PlayerMax : MonoBehaviour {
 			//Animation
 			if (Input.GetButtonDown ("Left")) {
 				animator.SetBool ("walking_right", true);
-				transform.localScale = new Vector3 (-2f, 2f, 0f);
+				transform.localScale = new Vector3 (-2f, 2f, 2f);
 			}
 			if (Input.GetButtonUp ("Left")) {
 				animator.SetBool ("walking_right", false);
