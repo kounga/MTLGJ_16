@@ -70,6 +70,9 @@ public class TaskManager : MonoBehaviour {
 					case "Open closet":
 						GameObject.FindGameObjectWithTag("closet").GetComponent<Animator>().SetTrigger("OpenGood");
 						break;
+					case "Go on facebook":
+						player.laptopGood();
+						break;
 				}
 				audioGood.Play();
 				GameObject.FindGameObjectWithTag("Score").GetComponent<GamePoints>().addPoints(20);
@@ -113,6 +116,10 @@ public class TaskManager : MonoBehaviour {
 						break;
 					case "Open closet":
 						GameObject.FindGameObjectWithTag("closet").GetComponent<Animator>().SetTrigger("OpenGood");
+						break;
+					case "Go on facebook":
+						player.laptopBad();
+						GameObject.FindGameObjectWithTag("laptop").GetComponent<Animator>().SetTrigger("laptopBad");
 						break;
 				}
 				audioBad.Play();
