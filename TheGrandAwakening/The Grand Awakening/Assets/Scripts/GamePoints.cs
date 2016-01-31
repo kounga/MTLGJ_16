@@ -7,6 +7,10 @@ public class GamePoints : MonoBehaviour {
 	public float timeMultiplier = 2f;
 	public Timer timer;
 
+	private typerAuto typer;
+	private Animator gameOverAnim;
+
+
 	void addPoints(int points) {
 		totalPoints += points;
 	}

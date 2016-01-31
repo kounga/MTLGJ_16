@@ -37,11 +37,6 @@ public class Timer : MonoBehaviour {
 			gameOverAnim.SetBool ("fadeIn",true);
 			typer.StartCoroutine ("TypeIn"); 
 
-			//calculate score
-			//end game
-			//load scene "game over" and show score
-			// ???
-			//profit
 		}
 	
 	}
@@ -64,4 +59,5 @@ public class Timer : MonoBehaviour {
 	public int getSeconds(){
 		return (int)timeLeft;
 	}
+
 }
